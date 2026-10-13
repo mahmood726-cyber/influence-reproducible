@@ -1,0 +1,10 @@
+{
+  "file": "data/dataset-inventory.csv",
+  "original_sha256": "0970bea9a3aeb87ff35b825c9cf15df6651232cd27e935eeaf9a5c05af22d82c",
+  "portable_sha256": "f93e882b435379154597123dec51884e47a55816b09a91fcc267dace21e4aa6f",
+  "transformation": "Library path fields replaced with <R_LIBS_USER>; UTF-8 LF CSV serialization; data fields unchanged",
+  "fields": [
+    "LibPath"
+  ],
+  "rows": 114
+}

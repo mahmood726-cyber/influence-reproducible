@@ -1,0 +1,10 @@
+library(metafor)
+source('starts.R');source('cache_refits.R');source('prime_refits_files.R')
+corpus<-readRDS('corpus.rds')
+id<-'dat.moura2021::ZCOR';stopifnot(id %in% names(corpus))
+c<-corpus[[id]]
+ctl<-list(threshold=1e-12,maxiter=10000,stepadj=1)
+ctl$tau2.init<-start_tau(c$yi,c$vi);ctl$threshold<-1e-12*max(1,ctl$tau2.init)
+res<-rma(c$yi,c$vi,method='REML',test='z',control=ctl)
+prime_refits(res,id)
+cat('LAST DATASET REML PRECOMPUTATION COMPLETE\n')

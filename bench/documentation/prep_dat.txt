@@ -1,0 +1,33 @@
+_D_a_t_a _p_r_e_p_a_r_a_t_i_o_n _f_u_n_c_t_i_o_n
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     Function to run data processing scripts.
+
+_U_s_a_g_e:
+
+     prep_dat(rebuild=FALSE, overwrite, pkgdir)
+     
+_A_r_g_u_m_e_n_t_s:
+
+ rebuild: logical indicating whether the entire database should be
+          rebuild (default is 'FALSE').
+
+overwrite: character vector with one or more '.Rd' filenames to
+          overwrite (if they already exist). The default is to never
+          overwrite any existing '.Rd' files.
+
+  pkgdir: character string specifying the root directory of the source
+          package (if unspecified, the current working directory is
+          assumed to be the package root directory).
+
+_D_e_t_a_i_l_s:
+
+     The function is only for used for processing new datasets for
+     inclusion in the package. It should be used as described on the
+     'metadat-package' help page.
+
+_A_u_t_h_o_r(_s):
+
+     Wolfgang Viechtbauer, <mailto:wvb@metafor-project.org>
+

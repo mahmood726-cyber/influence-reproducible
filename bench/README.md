@@ -1,0 +1,9 @@
+# Historical reference-run harness
+
+These scripts preserve the final validation run's fitting, comparison, browser extraction, cache, acceleration and parity methods. Local paths are replaced by `<ALLMETA_WORKTREE>`, `<PLAYWRIGHT_MODULE>`, `<R_HOME>` and `<R_LIBS_USER>` where necessary. Configure those placeholders in a separate working copy before using the historical workflow. `script-provenance.json` records original/portable hashes for supplementary scripts; the archive source manifest pins all files.
+
+`commands.ps1` describes the original workflow and expects its original working-directory layout and output/checkpoint directories. It is provenance, not the portable archive entry point. Historical scripts may skip existing checkpoints or aggregate prior partitions; they are not used by the root validator to claim a fresh fit.
+
+The supported archive entry point is **`Rscript validate.R` from the archive root**. It uses the actual `starts.R` and `cache_refits.R` helpers, verifies their hashes before sourcing them, clears the cache per configuration, and freshly recomputes all statistical quantities. `prime_validation.R` and `validation_worker.R` adapt the historical file-worker fit arguments to a portable, R-only entry point: they launch the current R executable, prioritize the supplied package library, require the paper versions, and use a new directory on each invocation. No historical R checkpoint enters that run. Standard R works; a locally configured accelerated BLAS runtime reduces the large-fit cost. Acceleration code is provided for audit, not executed or installed automatically.
+
+`documentation/` contains upstream package documentation used to derive the effect/variance recipes. Data and documentation retain their upstream attribution and rights. `results/source-validation-report.md` is the source run's report, predating this archive and in-app adapter.

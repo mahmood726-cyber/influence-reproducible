@@ -1,0 +1,249 @@
+{
+  "configurations": 142,
+  "checks": 164802,
+  "passes": 164802,
+  "quantities": {
+    "full.mu": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 1.9123525842793258e-15,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.dong2013::PLO arm-level",
+        null
+      ]
+    },
+    "full.seMu": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 1.4849232954361469e-15,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        null
+      ]
+    },
+    "full.tau2": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 2.4424906541753444e-15,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.dong2013::PLO arm-level",
+        null
+      ]
+    },
+    "full.Q": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 4.097286401409428e-15,
+      "tolerance": 1e-09,
+      "worst": [
+        "dat.egger2001::RR",
+        null
+      ]
+    },
+    "full.df": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 0,
+      "tolerance": 1e-09,
+      "worst": null
+    },
+    "full.swRE": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 3.679686598215947e-13,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        null
+      ]
+    },
+    "full.wRE": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 4.95232386903158e-13,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        2
+      ]
+    },
+    "loo_mu": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 1.1707648739367471e-14,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "loo_seMu": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 9.550520096990311e-15,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "loo.ci.lb": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 1.1018963519404679e-14,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        1
+      ]
+    },
+    "loo.ci.ub": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 3.0427049768633196e-14,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "resid": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 1.1923394866210988e-12,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "dffits": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 3.129219106057235e-12,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "cooksD": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 1.925903880817259e-12,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        6
+      ]
+    },
+    "covRatio": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 4.4465542359262145e-12,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "hat": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 3.114175584073564e-14,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        2
+      ]
+    },
+    "flags": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 0,
+      "tolerance": 0,
+      "worst": null
+    },
+    "weight.percent": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 1.5445621194298185e-13,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        1
+      ]
+    },
+    "baujat.REML.x": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 2.750571098704021e-13,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.hart1999::IRD",
+        5
+      ]
+    },
+    "baujat.REML.y": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 2.2911117447677043e-12,
+      "tolerance": 1e-06,
+      "worst": [
+        "dat.greenland1992::coefficient stored",
+        9
+      ]
+    },
+    "radial.x": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 0,
+      "tolerance": 1e-09,
+      "worst": null
+    },
+    "radial.z": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 0,
+      "tolerance": 1e-09,
+      "worst": null
+    },
+    "radial.resid": {
+      "checks": 9594,
+      "passes": 9594,
+      "max_difference": 4.8739402457862186e-14,
+      "tolerance": 1e-09,
+      "worst": [
+        "dat.bonett2010::ARAW",
+        8
+      ]
+    },
+    "radial.slope": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 8.713907727914139e-16,
+      "tolerance": 1e-09,
+      "worst": [
+        "dat.hasselblad1998::PLO",
+        null
+      ]
+    },
+    "ui.table_rows": {
+      "checks": 142,
+      "passes": 142,
+      "max_difference": 0,
+      "tolerance": 0,
+      "worst": null
+    },
+    "ui.plot_nonempty": {
+      "checks": 568,
+      "passes": 568,
+      "max_difference": 0,
+      "tolerance": 0,
+      "worst": null
+    }
+  }
+}

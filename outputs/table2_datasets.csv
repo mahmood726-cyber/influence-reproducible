@@ -1,0 +1,143 @@
+configuration,dataset,effect_definition,k,flagged_studies,flagged_source_rows
+dat.aloe2013::PCOR,dat.aloe2013,PCOR,5,1,4
+dat.aloe2013::ZPCOR,dat.aloe2013,ZPCOR,5,1,4
+dat.aloe2013::SPCOR,dat.aloe2013,SPCOR,5,1,4
+dat.anand1999::RR,dat.anand1999,RR,34,1,14
+dat.anker2025::IRR,dat.anker2025,IRR,6,1,5
+dat.anker2025::GEN,dat.anker2025,GEN,6,1,3
+dat.assink2016::SMD,dat.assink2016,SMD,100,0,
+dat.axfors2021::OR,dat.axfors2021,OR,33,1,14
+dat.bakdash2021::ZCOR stored,dat.bakdash2021,ZCOR stored,678,10,42;43;58;212;222;224;232;547;587;657
+dat.baker2009::PLO arm-level,dat.baker2009,PLO arm-level,94,0,
+dat.bangertdrowns2004::SMD,dat.bangertdrowns2004,SMD,48,1,46
+dat.bartos2023::PR,dat.bartos2023,PR,96,2,94;96
+dat.baskerville2012::SMD stored,dat.baskerville2012,SMD stored,23,0,
+dat.bassler2004::RR,dat.bassler2004,RR,10,1,5
+dat.bauer2002::CLES,dat.bauer2002,CLES,5,2,4;5
+dat.bauer2002::PLO,dat.bauer2002,PLO,5,2,4;5
+dat.bcg::RR,dat.bcg,RR,13,0,
+dat.begg1989::PR,dat.begg1989,PR,20,0,
+dat.berkey1998::MD,dat.berkey1998,MD,10,0,
+dat.berkey1998r::stored yi/vi,dat.berkey1998r,stored yi/vi,10,0,
+dat.besson2016::SMD,dat.besson2016,SMD,389,5,66;137;392;399;406
+dat.bonett2010::ARAW,dat.bonett2010,ARAW,9,0,
+dat.bonett2010::AHW,dat.bonett2010,AHW,9,0,
+dat.bonett2010::ABT,dat.bonett2010,ABT,9,1,3
+dat.bornmann2007::OR,dat.bornmann2007,OR,66,1,16
+dat.bourassa1996::OR,dat.bourassa1996,OR,96,1,1
+dat.cannon2006::OR endpoint1,dat.cannon2006,OR endpoint1,4,0,
+dat.cannon2006::OR endpoint2,dat.cannon2006,OR endpoint2,4,1,2
+dat.cannon2006::OR endpoint3,dat.cannon2006,OR endpoint3,4,1,4
+dat.cannon2006::OR endpoint4,dat.cannon2006,OR endpoint4,4,1,3
+dat.cannon2006::OR endpoint5,dat.cannon2006,OR endpoint5,4,3,2;3;4
+dat.cannon2006::OR endpoint6,dat.cannon2006,OR endpoint6,4,1,3
+dat.chiarito2020::OR,dat.chiarito2020,OR,8,1,4
+dat.cohen1981::ZCOR,dat.cohen1981,ZCOR,20,2,11;14
+dat.colditz1994::RR,dat.colditz1994,RR,13,0,
+dat.collins1985a::OR recurrent bleeding,dat.collins1985a,OR recurrent bleeding,25,2,19;26
+dat.collins1985b::OR,dat.collins1985b,OR,9,0,
+dat.craft2003::COR,dat.craft2003,COR,54,0,
+dat.crede2010::ZCOR,dat.crede2010,ZCOR,97,3,1;20;38
+dat.crisafulli2020::PLN,dat.crisafulli2020,PLN,26,0,
+dat.curtin2002::MD stored,dat.curtin2002,MD stored,21,1,16
+dat.curtis1998::ROM,dat.curtis1998,ROM,102,1,49
+dat.dagostino1998::SMD,dat.dagostino1998,SMD,34,4,65;66;69;70
+dat.dagostino1998::OR,dat.dagostino1998,OR,68,8,1;2;5;6;65;66;69;70
+dat.damico2009::OR,dat.damico2009,OR,16,1,8
+dat.debruin2009::PR,dat.debruin2009,PR,13,0,
+dat.demir2022::ABT,dat.demir2022,ABT,33,0,
+dat.dogliotti2014::PLO arm-level,dat.dogliotti2014,PLO arm-level,44,1,15
+dat.dong2013::PLO arm-level,dat.dong2013,PLO arm-level,99,0,
+dat.dorn2007::RR,dat.dorn2007,RR,19,0,
+dat.dumouchel1994::OR,dat.dumouchel1994,OR,9,1,5
+dat.egger2001::RR,dat.egger2001,RR,16,0,
+dat.feng2019::PLO,dat.feng2019,PLO,19,0,
+dat.fine1993::stored yi/vi,dat.fine1993,stored yi/vi,66,6,41;42;43;44;45;46
+dat.franchini2012::MD arms 1-2,dat.franchini2012,MD arms 1-2,7,1,2
+dat.frank2008::OR,dat.frank2008,OR,4,0,
+dat.frank2008::REH,dat.frank2008,REH,4,0,
+dat.furukawa2003::SMD,dat.furukawa2003,SMD,17,1,10
+dat.gibson2002::SMD,dat.gibson2002,SMD,13,0,
+dat.gibson2002::RR,dat.gibson2002,RR,7,1,10
+dat.gibson2002::PBIT,dat.gibson2002,PBIT,15,0,
+dat.graves2010::RR,dat.graves2010,RR,17,0,
+dat.greb2008::RR,dat.greb2008,RR,14,0,
+dat.greenland1992::coefficient stored,dat.greenland1992,coefficient stored,16,1,11
+dat.gurusamy2011::PLO arm-level,dat.gurusamy2011,PLO arm-level,29,0,
+dat.hackshaw1998::OR,dat.hackshaw1998,OR,37,0,
+dat.hackshaw1998::GEN,dat.hackshaw1998,GEN,37,0,
+dat.hahn2001::RR,dat.hahn2001,RR,12,2,3;12
+dat.hannum2020::PR,dat.hannum2020,PR,35,0,
+dat.hart1999::IRR,dat.hart1999,IRR,6,0,
+dat.hart1999::IRD,dat.hart1999,IRD,6,1,6
+dat.hartmannboyce2018::RR,dat.hartmannboyce2018,RR,136,2,53;125
+dat.hasselblad1998::PLO,dat.hasselblad1998,PLO,50,0,
+dat.hasselblad1998::OR,dat.hasselblad1998,OR,26,1,1
+dat.higgins2008::RR available case,dat.higgins2008,RR available case,17,0,
+dat.hine1989::RD,dat.hine1989,RD,6,0,
+dat.ishak2007::MD,dat.ishak2007,MD,82,0,
+dat.ishak2007::stored yi/vi,dat.ishak2007,stored yi/vi,82,0,
+dat.kalaian1996::stored yi/vi,dat.kalaian1996,stored yi/vi,67,5,53;54;56;57;58
+dat.karner2014::OR,dat.karner2014,OR,22,0,
+dat.karner2014::MD,dat.karner2014,MD,9,2,2;7
+dat.kearon1998::OR,dat.kearon1998,OR,30,0,
+dat.kearon1998::PLO,dat.kearon1998,PLO,28,0,
+dat.knapp2017::stored yi/vi,dat.knapp2017,stored yi/vi,66,2,38;62
+dat.konstantopoulos2011::SMD,dat.konstantopoulos2011,SMD,56,1,33
+dat.landenberger2005::OR,dat.landenberger2005,OR,58,1,54
+dat.laopaiboon2015::RR,dat.laopaiboon2015,RR,15,1,2
+dat.lau1992::RR,dat.lau1992,RR,33,2,21;32
+dat.lee2004::RR,dat.lee2004,RR,16,0,
+dat.lehmann2018::stored yi/vi,dat.lehmann2018,stored yi/vi,81,1,4
+dat.li2007::OR,dat.li2007,OR,22,0,
+dat.lim2014::ZCOR,dat.lim2014,ZCOR,170,2,16;45
+dat.linde2005::RR,dat.linde2005,RR,23,0,
+dat.linde2015::RR response arms 1-2,dat.linde2015,RR response arms 1-2,59,2,7;36
+dat.linde2016::PLO arm-level,dat.linde2016,PLO arm-level,201,0,
+dat.lloyd2010::MD das,dat.lloyd2010,MD das,13,0,
+dat.lloyd2010::MD haq,dat.lloyd2010,MD haq,8,0,
+dat.lopez2019::stored yi/vi,dat.lopez2019,stored yi/vi,96,2,53;54
+dat.maire2019::Mann-Kendall s1 stored,dat.maire2019,Mann-Kendall s1 stored,35,0,
+dat.mccurdy2020::GEN,dat.mccurdy2020,GEN,1653,0,
+dat.mcdaniel1994::ZCOR,dat.mcdaniel1994,ZCOR,160,2,30;130
+dat.mcdaniel1994::COR,dat.mcdaniel1994,COR,160,2,33;130
+dat.meeker2017::GEN,dat.meeker2017,GEN,10,1,4
+dat.michael2013::stored yi/vi,dat.michael2013,stored yi/vi,12,0,
+dat.michael2013::MD,dat.michael2013,MD,12,0,
+dat.molloy2014::ZCOR,dat.molloy2014,ZCOR,16,0,
+dat.moore1998::RR,dat.moore1998,RR,37,1,26
+dat.moura2021::ZCOR,dat.moura2021,ZCOR,1828,24,101;323;324;354;592;660;678;689;690;730;731;755;780;880;922;923;926;1061;1191;1321;1323;1325;1769;1824
+dat.nakagawa2007::ZCOR,dat.nakagawa2007,ZCOR,15,1,3
+dat.nielweise2007::OR,dat.nielweise2007,OR,17,1,14
+dat.nielweise2008::IRR,dat.nielweise2008,IRR,9,1,3
+dat.nissen2007::OR,dat.nissen2007,OR,38,2,41;42
+dat.normand1999::MD,dat.normand1999,MD,9,0,
+dat.normand1999::SMD,dat.normand1999,SMD,9,1,3
+dat.normand1999::ROM,dat.normand1999,ROM,9,0,
+dat.obrien2003::RR,dat.obrien2003,RR,30,0,
+dat.obrien2003::PR,dat.obrien2003,PR,43,0,
+dat.pagliaro1992::PLO,dat.pagliaro1992,PLO,54,0,
+dat.pignon2000::stored yi/vi,dat.pignon2000,stored yi/vi,65,1,42
+dat.poole2003::MD,dat.poole2003,MD,17,1,3
+dat.pritz1997::PR,dat.pritz1997,PR,14,0,
+dat.pritz1997::PLO,dat.pritz1997,PLO,14,0,
+dat.quan2000::RR,dat.quan2000,RR,11,0,
+dat.raudenbush1985::SMD,dat.raudenbush1985,SMD,19,1,10
+dat.riley2003::GEN,dat.riley2003,GEN,98,1,59
+dat.rivera2025::log diagnostic OR,dat.rivera2025,log diagnostic OR,10,0,
+dat.roever2022::PLO arm-level,dat.roever2022,PLO arm-level,37,2,9;12
+dat.senn2013::MN,dat.senn2013,MN,53,2,50;51
+dat.senn2013::MD,dat.senn2013,MD,27,0,
+dat.spooner2002::MD,dat.spooner2002,MD,17,0,
+dat.steurer2006::logHR stored,dat.steurer2006,logHR stored,4,1,2
+dat.stowe2010::MD arms 1-2,dat.stowe2010,MD arms 1-2,29,1,17
+dat.tannersmith2016::stored yi/vi,dat.tannersmith2016,stored yi/vi,113,1,111
+dat.thompson1999::logOR stored,dat.thompson1999,logOR stored,28,0,
+dat.tian2009::PLO arm-level,dat.tian2009,PLO arm-level,96,4,15;81;82;84
+dat.ursino2021::PLO arm-level,dat.ursino2021,PLO arm-level,49,3,5;27;28
+dat.vanhowe1999::OR,dat.vanhowe1999,OR,33,0,
+dat.viechtbauer2021::OR,dat.viechtbauer2021,OR,20,1,6
+dat.white2020::ZCOR,dat.white2020,ZCOR,186,2,23;25
+dat.woods2010::PLO arm-level,dat.woods2010,PLO arm-level,8,1,6
+dat.yusuf1985::RR,dat.yusuf1985,RR,118,13,44;54;57;60;64;78;81;84;105;108;118;124;128
+dat.huber2000::MD recurrence IPD,dat.huber2000,MD recurrence IPD,5,0,

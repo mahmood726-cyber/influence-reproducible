@@ -1,0 +1,206 @@
+{
+  "configurations": {
+    "value": 142,
+    "source": "data/corpus.json",
+    "transformation": "count configurations / sum effect rows",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "effect_rows": {
+    "value": 9594,
+    "source": "data/corpus.json",
+    "transformation": "count configurations / sum effect rows",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "checks": {
+    "value": 164802,
+    "source": "results/reference.json + results/app-patched.json + results/app.json",
+    "transformation": "strict comparison; before includes DL controls",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "passed": {
+    "value": 164802,
+    "source": "results/reference.json + results/app-patched.json + results/app.json",
+    "transformation": "strict comparison; before includes DL controls",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "before_checks": {
+    "value": 183990,
+    "source": "results/reference.json + results/app-patched.json + results/app.json",
+    "transformation": "strict comparison; before includes DL controls",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "before_passed": {
+    "value": 155797,
+    "source": "results/reference.json + results/app-patched.json + results/app.json",
+    "transformation": "strict comparison; before includes DL controls",
+    "validation": "asserted against expected/paper_values.json"
+  },
+  "datasets_used": {
+    "value": 113,
+    "source": "data/corpus.json + data/dataset-inventory.csv",
+    "transformation": "count unique dataset names / inventory rows",
+    "validation": "inventory reconciliation in verify_archive.py"
+  },
+  "datasets_enumerated": {
+    "value": 114,
+    "source": "data/corpus.json + data/dataset-inventory.csv",
+    "transformation": "count unique dataset names / inventory rows",
+    "validation": "inventory reconciliation in verify_archive.py"
+  },
+  "max_full.mu": {
+    "value": 1.9123525842793258e-15,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.seMu": {
+    "value": 1.4849232954361469e-15,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.tau2": {
+    "value": 2.4424906541753444e-15,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.Q": {
+    "value": 4.097286401409428e-15,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.df": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.swRE": {
+    "value": 3.679686598215947e-13,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_full.wRE": {
+    "value": 4.95232386903158e-13,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_loo_mu": {
+    "value": 1.1707648739367471e-14,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_loo_seMu": {
+    "value": 9.550520096990311e-15,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_loo.ci.lb": {
+    "value": 1.1018963519404679e-14,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_loo.ci.ub": {
+    "value": 3.0427049768633196e-14,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_resid": {
+    "value": 1.1923394866210988e-12,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_dffits": {
+    "value": 3.129219106057235e-12,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_cooksD": {
+    "value": 1.925903880817259e-12,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_covRatio": {
+    "value": 4.4465542359262145e-12,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_hat": {
+    "value": 3.114175584073564e-14,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_flags": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_weight.percent": {
+    "value": 1.5445621194298185e-13,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_baujat.REML.x": {
+    "value": 2.750571098704021e-13,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_baujat.REML.y": {
+    "value": 2.2911117447677043e-12,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_radial.x": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_radial.z": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_radial.resid": {
+    "value": 4.8739402457862186e-14,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_radial.slope": {
+    "value": 8.713907727914139e-16,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_ui.table_rows": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  },
+  "max_ui.plot_nonempty": {
+    "value": 0,
+    "source": "results/reference.json + results/app-patched.json",
+    "transformation": "max absolute difference / max(1,abs(R)); exact flags/UI",
+    "validation": "compared with results/results-patched.json"
+  }
+}

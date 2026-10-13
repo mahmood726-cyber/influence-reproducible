@@ -1,0 +1,8 @@
+cat(R.home(),'\n');print(extSoftVersion());set.seed(1)
+x<-matrix(rnorm(1000000),1000,1000)
+print(system.time(y<-crossprod(x)))
+stopifnot(max(abs(diag(y)-colSums(x*x)))<1e-9)
+library(metafor)
+r<-rma(c(.1,.2,.8),c(.01,.03,.02),method='REML',control=list(threshold=1e-12))
+print(r$tau2)
+cat('BLAS SMOKE PASS\n')

@@ -1,0 +1,10 @@
+{
+  "configurations": 29,
+  "numeric_checks": 19879,
+  "max_normalized_difference": 1.177090768607161e-10,
+  "worst": "dat.anker2025::GEN.loo.I2[0]",
+  "tolerance": 1e-09,
+  "unchanged_machine_code_sections": {
+    ".text": "ba9ea90d4ffd21f70685e00174b49bc0dbe54be1fc96cb98011afd05f6fd7f1a"
+  }
+}

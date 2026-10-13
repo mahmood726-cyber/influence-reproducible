@@ -1,0 +1,9 @@
+{
+  "Python": "3.13.13",
+  "packages": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.4",
+    "Pillow": "12.2.0",
+    "pytest": "9.0.3"
+  }
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "file": "s00.R",
+    "exit": 0,
+    "seconds": 1.9089648999979545,
+    "verdict": "ALL 145/145 app values reproduced"
+  },
+  {
+    "file": "s00_planted.R",
+    "exit": 1,
+    "seconds": 2.94803039999897,
+    "verdict": "expected FAIL, exit 1"
+  },
+  {
+    "file": "s01.R",
+    "exit": 0,
+    "seconds": 2.006293500002357,
+    "verdict": "ALL 202/202 app values reproduced"
+  },
+  {
+    "file": "s02.R",
+    "exit": 0,
+    "seconds": 1.5174594999989495,
+    "verdict": "ALL 88/88 app values reproduced"
+  },
+  {
+    "file": "s03.R",
+    "exit": 0,
+    "seconds": 2.1713273000023037,
+    "verdict": "ALL 183/183 app values reproduced"
+  },
+  {
+    "file": "s04.R",
+    "exit": 0,
+    "seconds": 1.9278707999983453,
+    "verdict": "ALL 126/126 app values reproduced"
+  },
+  {
+    "file": "s05.R",
+    "exit": 0,
+    "seconds": 2.086790600002132,
+    "verdict": "ALL 88/88 app values reproduced"
+  },
+  {
+    "file": "s06.R",
+    "exit": 0,
+    "seconds": 2.0107352000013634,
+    "verdict": "ALL 88/88 app values reproduced"
+  },
+  {
+    "file": "s07.R",
+    "exit": 0,
+    "seconds": 2.7009321000005,
+    "verdict": "ALL 183/183 app values reproduced"
+  },
+  {
+    "file": "s08.R",
+    "exit": 0,
+    "seconds": 2.0186418000012054,
+    "verdict": "ALL 107/107 app values reproduced"
+  },
+  {
+    "file": "s09.R",
+    "exit": 0,
+    "seconds": 2.0585737000001245,
+    "verdict": "ALL 164/164 app values reproduced"
+  },
+  {
+    "file": "s10.R",
+    "exit": 0,
+    "seconds": 3.3261887000007846,
+    "verdict": "ALL 373/373 app values reproduced"
+  },
+  {
+    "file": "s10_planted.R",
+    "exit": 1,
+    "seconds": 2.7588307000005443,
+    "verdict": "expected FAIL, exit 1"
+  },
+  {
+    "file": "s11.R",
+    "exit": 0,
+    "seconds": 4.407845699999598,
+    "verdict": "ALL 259/259 app values reproduced"
+  },
+  {
+    "file": "s12.R",
+    "exit": 0,
+    "seconds": 2.2211774999996123,
+    "verdict": "ALL 316/316 app values reproduced"
+  },
+  {
+    "file": "s13.R",
+    "exit": 0,
+    "seconds": 4.768159799998102,
+    "verdict": "ALL 943/943 app values reproduced"
+  },
+  {
+    "file": "s14.R",
+    "exit": 0,
+    "seconds": 3.668997600001603,
+    "verdict": "ALL 335/335 app values reproduced"
+  },
+  {
+    "file": "s15.R",
+    "exit": 0,
+    "seconds": 3.940723399999115,
+    "verdict": "ALL 449/449 app values reproduced"
+  },
+  {
+    "file": "s16.R",
+    "exit": 0,
+    "seconds": 1.6975505000009434,
+    "verdict": "ALL 240/240 app values reproduced"
+  },
+  {
+    "file": "s17.R",
+    "exit": 0,
+    "seconds": 1.7876896999987366,
+    "verdict": "ALL 278/278 app values reproduced"
+  },
+  {
+    "file": "s18.R",
+    "exit": 0,
+    "seconds": 2.0649177999985113,
+    "verdict": "ALL 677/677 app values reproduced"
+  },
+  {
+    "file": "s19.R",
+    "exit": 0,
+    "seconds": 2.8400363999971887,
+    "verdict": "ALL 430/430 app values reproduced"
+  },
+  {
+    "file": "s20.R",
+    "exit": 0,
+    "seconds": 2.9170283999992535,
+    "verdict": "ALL 1038/1038 app values reproduced"
+  },
+  {
+    "file": "s20_planted.R",
+    "exit": 1,
+    "seconds": 3.2228336000007403,
+    "verdict": "expected FAIL, exit 1"
+  },
+  {
+    "file": "s21.R",
+    "exit": 0,
+    "seconds": 11.352615100000548,
+    "verdict": "ALL 2596/2596 app values reproduced"
+  },
+  {
+    "file": "s22.R",
+    "exit": 0,
+    "seconds": 3.7891195000011066,
+    "verdict": "ALL 1304/1304 app values reproduced"
+  },
+  {
+    "file": "s23.R",
+    "exit": 0,
+    "seconds": 3.666702999998961,
+    "verdict": "ALL 1266/1266 app values reproduced"
+  },
+  {
+    "file": "s24.R",
+    "exit": 0,
+    "seconds": 226.21442540000135,
+    "verdict": "ALL 7403/7403 app values reproduced"
+  },
+  {
+    "file": "s25.R",
+    "exit": 0,
+    "seconds": 7.896394899998995,
+    "verdict": "ALL 2254/2254 app values reproduced"
+  },
+  {
+    "file": "s26.R",
+    "exit": 0,
+    "seconds": 2.922225199999957,
+    "verdict": "ALL 1114/1114 app values reproduced"
+  },
+  {
+    "file": "s27.R",
+    "exit": 0,
+    "seconds": 4.849659300001804,
+    "verdict": "ALL 1570/1570 app values reproduced"
+  },
+  {
+    "file": "s28.R",
+    "exit": 0,
+    "seconds": 5.147600000000239,
+    "verdict": "ALL 1912/1912 app values reproduced"
+  },
+  {
+    "file": "s29.R",
+    "exit": 0,
+    "seconds": 3.3435231000003114,
+    "verdict": "ALL 1247/1247 app values reproduced"
+  },
+  {
+    "file": "s30.R",
+    "exit": 0,
+    "seconds": 1.6357248999993317,
+    "verdict": "ALL 259/259 app values reproduced"
+  }
+]

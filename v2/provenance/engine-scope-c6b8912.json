@@ -1,0 +1,1808 @@
+{
+  "classification_rule": "ENGINE = code or pinned reference data whose value can enter a displayed or exported number. NON-ENGINE = CSS, the build stamp, documentation, test specs/fixtures/pixel references, and UI-state or export-rendering modules.",
+  "counts": {
+    "added": 177,
+    "deleted": 0,
+    "engine": 21,
+    "engine_loaded_by_v1_page": 5,
+    "engine_loaded_by_v2_page": 7,
+    "files": 223,
+    "modified": 46,
+    "non_engine": 202
+  },
+  "files": [
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "hub/shared/analysis-lifecycle.js",
+      "reason": "run/stale badge lifecycle; UI state only"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/chart-download.js",
+      "reason": "chart export plumbing (lazy-loads the vendored jsPDF)"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "hub/shared/csv-upload.js",
+      "reason": "CSV input parser; produces the numbers the engine consumes"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "hub/shared/plot-export.js",
+      "reason": "plot export UI"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "hub/shared/results-export.js",
+      "reason": "export-bar CSS only"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/_cumsub_parity_gen.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/_cumsub_rscript.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/alm-validate-framework.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/analysis-lifecycle.test.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/batch1-plot-export.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/batch2-plot-export.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/bucher-direction-integrity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/bucher-review.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/bucher-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/bucher.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/component-nma-parity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/correlation-ma-plus-replay.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/correlation-ma-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/correlation-ma-refusal.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/correlation-ma-walkthrough-gates.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/correlation-ma-walkthrough.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cross-design-alpha0.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cross-design.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-feature-claims.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-label-layout.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-pi.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-qb.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-regressions.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-rexport-parity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/cumulative-subgroup-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-import-atomic.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-moses-nonidentifiability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-moses.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-sroc-plus-isolation.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-sroc-plus-pixels.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/dta-sroc-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/effect-size-converter-accuracy.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/evalue-input-integrity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/evalue.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/features-helpers.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/.gitattributes",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/permutation-exact.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/app_example.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/configs.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/dat_aloe2013_e1_n.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/dat_bangertdrowns2004_e1_minutes.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/dat_bcg_e1_ablat.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/dat_bcg_e1_year.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/dat_hart1999_e1_year.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/r-results-tight.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/rscript/r-results.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/meta-regression/run_rscripts.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/multilevel-ma/mlma_mom.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/multilevel-ma/mom-reference.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/pubbias-tests/pb-tiny-metafor.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/pubbias-tests/pbtiny.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/pubbias-tests/thompson-sharp-reference.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/features/pubbias-tests/ts_regtest.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/hero-bcg-input.csv",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/hero-bcg-reference.R",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/hero-bcg-reference.out",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fixtures/selmodel-legacy-plus.json",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/forest-csv-import-atomic.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/forest-integrity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/fragility-undefined.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/gosh-exact.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/gosh-input-validation.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/gosh-plus-pixels.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/gosh-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/gosh-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hero-effect-se-label.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hero-effect-se-label.test.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hero-sweep-contract.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hero-sweep.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hero-sweep.test.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/heterogeneity-integrity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/hta-bia-integrity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/influence-v2.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-funnel-ticks.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-input-validation.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-loo.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-plus-pixels.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/limit-ma-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/ma-comparisons-detlog.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/meta-regression-features.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/meta-regression-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/meta-regression-usability-walkthrough.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/meta-regression-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/mh-peto-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/mh-peto-v2.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multilevel-ma-features.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multilevel-ma-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multilevel-ma-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multilevel-ma-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multivariate-ma-fixture.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multivariate-ma-parity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multivariate-ma-plus-pixels.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multivariate-ma-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/multivariate-ma-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-bus-reader.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-dom.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-plus.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-review.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-inconsistency-walkthrough.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/nma-multiarm-variance-guard.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/0-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/0-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/0-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/1-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/1-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/1-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/2-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/2-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/2-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/3-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/3-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/3-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/4-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/4-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/4-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/5-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/5-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/5-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/6-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/6-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/6-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/7-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/7-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/7-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/8-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/8-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/8-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/9-plus-forest.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/9-plus-funnel.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/9-plus-plot.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/mv-berkey-joint.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/mv-berkey-sweep.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/mv-hyp-joint.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pixel-references/mv-hyp-sweep.png",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/playwright.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/playwright.pixels.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export-fixture.css",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export-fixture.html",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export-fixture.js",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export-pillow.py",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export-reader.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/plot-export.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/proportion-ma-features.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/proportion-ma-plus-diagnostics.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/proportion-ma-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/proportion-ma-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/proportion-ma-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pubbias-tests-a11y-autosave.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pubbias-tests-features.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pubbias-tests-plus.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pubbias-tests-sanity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/pubbias-tests-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/r1fix-contract.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/r1fix-lifecycle.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/rve-meta-parser.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/rve-meta-usability.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/selmodel-parity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/test_plot_export.py",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-dose-response-ma.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-dose-response-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-dta-sroc.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-dta-sroc.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-heterogeneity.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-heterogeneity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-nma.config.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/usability-nma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-correlation-ma-plus.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-correlation-ma.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-correlation-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-cumulative-subgroup.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-dose-response-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-dta-sroc.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-gosh.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-heterogeneity.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-influence.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-integration.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-limit-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-mh-peto.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-multilevel-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-nma-inconsistency.node.cjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-nma-inconsistency.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-nma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-proportion-ma.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-pubbias-tests.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-revision.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validate-screen.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validation-audit.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "hub/shared/tests/validation-fixture.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "influence/README.md",
+      "reason": "page documentation"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "influence/index.html",
+      "reason": "the influence page itself (markup, computation, rendering)"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "influence/influence-extra.js",
+      "reason": "the v2 exclusion / re-pool feature that E1 measures"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "influence/r-script.js",
+      "reason": "generates the downloadable metafor script that E3 runs"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "influence/validate/MANIFEST.json",
+      "reason": "pinned corpus/reference manifest of the in-app Validate panel"
+    },
+    {
+      "change": "added",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "influence/validate/README.md",
+      "reason": "panel documentation"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "influence/validate/adapter.js",
+      "reason": "in-app Validate panel adapter"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "influence/validate/corpus/corpus.json",
+      "reason": "pinned validation corpus (reference input)"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "influence/validate/corpus/reference.json",
+      "reason": "pinned metafor reference values"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "shared/alm-validate.js",
+      "reason": "in-app validation panel; computes check verdicts"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "shared/build-info.js",
+      "reason": "build stamp (version, commit, build time)"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "shared/canonical-datasets.js",
+      "reason": "example-dataset text helpers"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/cross-design.js",
+      "reason": "cross-design synthesis engine"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/dta-bivariate.js",
+      "reason": "DTA bivariate engine"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/effect-size-accuracy.js",
+      "reason": "effect-size conversion engine"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/fragility.js",
+      "reason": "fragility-index engine"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "shared/hero-examples.js",
+      "reason": "example-dataset loader manifests"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/ma-comparisons-v1.js",
+      "reason": "pairwise comparison engine"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": true,
+      "loaded_by_v2_app_snapshot_page": true,
+      "path": "shared/ma-core.js",
+      "reason": "shared meta-analysis engine (the influence page's fitter)"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/multivariate-ma.js",
+      "reason": "multivariate meta-analysis engine"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/nma-multiarm-v1.js",
+      "reason": "multi-arm NMA engine"
+    },
+    {
+      "change": "added",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/rve-extras.js",
+      "reason": "robust variance estimation extras"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/rve.js",
+      "reason": "robust variance estimation engine"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/stats-qt.js",
+      "reason": "t / incomplete-beta quantile library"
+    },
+    {
+      "change": "modified",
+      "classification": "NON-ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/tests/nma-multiarm-v1.spec.mjs",
+      "reason": "test spec, fixture or pixel reference; not loaded by any page"
+    },
+    {
+      "change": "modified",
+      "classification": "ENGINE",
+      "loaded_by_v1_app_snapshot_page": false,
+      "loaded_by_v2_app_snapshot_page": false,
+      "path": "shared/trimfill.js",
+      "reason": "trim-and-fill engine"
+    }
+  ],
+  "from_commit": "c6b8912c951a107a04228b9b52004d7ecc0d20e5",
+  "from_commit_note": "the commit at which this archive's v1 primary tier (164,802 checks) was validated; first released in allmeta v1.3.0",
+  "paths": [
+    "influence/",
+    "shared/",
+    "hub/shared/"
+  ],
+  "to_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "to_release": "v1.8.0"
+}

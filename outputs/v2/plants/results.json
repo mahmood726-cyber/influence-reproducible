@@ -1,0 +1,17 @@
+[
+  {
+    "control": "capture",
+    "exit": 1,
+    "verdict": "V2 NOT REPRODUCED"
+  },
+  {
+    "control": "stored_fit",
+    "exit": 1,
+    "verdict": "V2 NOT REPRODUCED"
+  },
+  {
+    "control": "e3_expected",
+    "exit": 1,
+    "verdict": "V2 NOT REPRODUCED"
+  }
+]

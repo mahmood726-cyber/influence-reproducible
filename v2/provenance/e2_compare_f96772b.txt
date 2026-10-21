@@ -1,0 +1,18 @@
+[f96772b] configurations: 142/142; missing []
+quantity | pass/checks | max normalized diff | tol | worst
+full.ciLo | 142/142 | 3.983e-15 | 1e-06 | ['dat.hart1999::IRD', None]
+full.ciHi | 142/142 | 1.902e-15 | 1e-06 | ['dat.dong2013::PLO arm-level', None]
+full.p | 142/142 | 1.388e-15 | 1e-06 | ['dat.cannon2006::OR endpoint3', None]
+full.I2 | 142/142 | 3.577e-13 | 1e-06 | ['dat.hart1999::IRD', None]
+full.Qp | 142/142 | 9.825e-15 | 1e-09 | ['dat.fine1993::stored yi/vi', None]
+loo.tau2 | 9594/9594 | 3.517e-15 | 1e-06 | ['dat.spooner2002::MD', 6]
+loo.I2 | 9594/9594 | 8.333e-12 | 1e-06 | ['dat.bauer2002::CLES', 3]
+loo.H2 | 9594/9594 | 4.963e-12 | 1e-06 | ['dat.greenland1992::coefficient stored', 9]
+loo.Q | 9594/9594 | 1.946e-14 | 1e-09 | ['dat.egger2001::RR', 4]
+loo.Qp | 9594/9594 | 1.599e-14 | 1e-09 | ['dat.yusuf1985::RR', 51]
+loo.zval | 9594/9594 | 1.479e-12 | 1e-06 | ['dat.greenland1992::coefficient stored', 9]
+loo.pval | 9594/9594 | 2.194e-14 | 1e-06 | ['dat.greenland1992::coefficient stored', 9]
+inf.tau2.del | 9594/9594 | 3.517e-15 | 1e-06 | ['dat.spooner2002::MD', 6]
+inf.QE.del | 9594/9594 | 1.946e-14 | 1e-09 | ['dat.egger2001::RR', 4]
+dfbetas.intrcpt | 9594/9594 | 3.716e-12 | 1e-06 | ['dat.greenland1992::coefficient stored', 9]
+E2 TOTAL 96650/96650 checks pass

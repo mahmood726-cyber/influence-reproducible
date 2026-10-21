@@ -1,0 +1,6710 @@
+{
+"F": {
+"dat.aloe2013::PCOR": {
+"exclude": [
+3
+],
+"k": 5,
+"refused": false
+},
+"dat.aloe2013::SPCOR": {
+"exclude": [
+3
+],
+"k": 5,
+"refused": false
+},
+"dat.aloe2013::ZPCOR": {
+"exclude": [
+3
+],
+"k": 5,
+"refused": false
+},
+"dat.anand1999::RR": {
+"exclude": [
+13
+],
+"k": 34,
+"refused": false
+},
+"dat.anker2025::GEN": {
+"exclude": [
+2
+],
+"k": 6,
+"refused": false
+},
+"dat.anker2025::IRR": {
+"exclude": [
+4
+],
+"k": 6,
+"refused": false
+},
+"dat.axfors2021::OR": {
+"exclude": [
+13
+],
+"k": 33,
+"refused": false
+},
+"dat.bakdash2021::ZCOR stored": {
+"exclude": [
+41,
+42,
+57,
+211,
+221,
+223,
+231,
+546,
+586,
+656
+],
+"k": 678,
+"refused": false
+},
+"dat.bangertdrowns2004::SMD": {
+"exclude": [
+45
+],
+"k": 48,
+"refused": false
+},
+"dat.bartos2023::PR": {
+"exclude": [
+93,
+95
+],
+"k": 96,
+"refused": false
+},
+"dat.bassler2004::RR": {
+"exclude": [
+4
+],
+"k": 10,
+"refused": false
+},
+"dat.bauer2002::CLES": {
+"exclude": [
+3,
+4
+],
+"k": 5,
+"refused": false
+},
+"dat.bauer2002::PLO": {
+"exclude": [
+3,
+4
+],
+"k": 5,
+"refused": false
+},
+"dat.besson2016::SMD": {
+"exclude": [
+57,
+128,
+313,
+320,
+327
+],
+"k": 389,
+"refused": false
+},
+"dat.bonett2010::ABT": {
+"exclude": [
+2
+],
+"k": 9,
+"refused": false
+},
+"dat.bornmann2007::OR": {
+"exclude": [
+15
+],
+"k": 66,
+"refused": false
+},
+"dat.bourassa1996::OR": {
+"exclude": [
+0
+],
+"k": 96,
+"refused": false
+},
+"dat.cannon2006::OR endpoint2": {
+"exclude": [
+1
+],
+"k": 4,
+"refused": false
+},
+"dat.cannon2006::OR endpoint3": {
+"exclude": [
+3
+],
+"k": 4,
+"refused": false
+},
+"dat.cannon2006::OR endpoint4": {
+"exclude": [
+2
+],
+"k": 4,
+"refused": false
+},
+"dat.cannon2006::OR endpoint5": {
+"exclude": [
+1,
+2,
+3
+],
+"k": 4,
+"refused": true
+},
+"dat.cannon2006::OR endpoint6": {
+"exclude": [
+2
+],
+"k": 4,
+"refused": false
+},
+"dat.chiarito2020::OR": {
+"exclude": [
+3
+],
+"k": 8,
+"refused": false
+},
+"dat.cohen1981::ZCOR": {
+"exclude": [
+10,
+13
+],
+"k": 20,
+"refused": false
+},
+"dat.collins1985a::OR recurrent bleeding": {
+"exclude": [
+16,
+23
+],
+"k": 25,
+"refused": false
+},
+"dat.crede2010::ZCOR": {
+"exclude": [
+0,
+19,
+37
+],
+"k": 97,
+"refused": false
+},
+"dat.curtin2002::MD stored": {
+"exclude": [
+15
+],
+"k": 21,
+"refused": false
+},
+"dat.curtis1998::ROM": {
+"exclude": [
+48
+],
+"k": 102,
+"refused": false
+},
+"dat.dagostino1998::OR": {
+"exclude": [
+0,
+1,
+4,
+5,
+60,
+61,
+64,
+65
+],
+"k": 68,
+"refused": false
+},
+"dat.dagostino1998::SMD": {
+"exclude": [
+30,
+31,
+32,
+33
+],
+"k": 34,
+"refused": false
+},
+"dat.damico2009::OR": {
+"exclude": [
+7
+],
+"k": 16,
+"refused": false
+},
+"dat.dogliotti2014::PLO arm-level": {
+"exclude": [
+14
+],
+"k": 44,
+"refused": false
+},
+"dat.dumouchel1994::OR": {
+"exclude": [
+4
+],
+"k": 9,
+"refused": false
+},
+"dat.fine1993::stored yi/vi": {
+"exclude": [
+40,
+41,
+42,
+43,
+44,
+45
+],
+"k": 66,
+"refused": false
+},
+"dat.franchini2012::MD arms 1-2": {
+"exclude": [
+1
+],
+"k": 7,
+"refused": false
+},
+"dat.furukawa2003::SMD": {
+"exclude": [
+9
+],
+"k": 17,
+"refused": false
+},
+"dat.gibson2002::RR": {
+"exclude": [
+3
+],
+"k": 7,
+"refused": false
+},
+"dat.greenland1992::coefficient stored": {
+"exclude": [
+10
+],
+"k": 16,
+"refused": false
+},
+"dat.hahn2001::RR": {
+"exclude": [
+2,
+11
+],
+"k": 12,
+"refused": false
+},
+"dat.hart1999::IRD": {
+"exclude": [
+5
+],
+"k": 6,
+"refused": false
+},
+"dat.hartmannboyce2018::RR": {
+"exclude": [
+52,
+124
+],
+"k": 136,
+"refused": false
+},
+"dat.hasselblad1998::OR": {
+"exclude": [
+0
+],
+"k": 26,
+"refused": false
+},
+"dat.kalaian1996::stored yi/vi": {
+"exclude": [
+52,
+53,
+55,
+56,
+57
+],
+"k": 67,
+"refused": false
+},
+"dat.karner2014::MD": {
+"exclude": [
+1,
+6
+],
+"k": 9,
+"refused": false
+},
+"dat.knapp2017::stored yi/vi": {
+"exclude": [
+37,
+61
+],
+"k": 66,
+"refused": false
+},
+"dat.konstantopoulos2011::SMD": {
+"exclude": [
+32
+],
+"k": 56,
+"refused": false
+},
+"dat.landenberger2005::OR": {
+"exclude": [
+53
+],
+"k": 58,
+"refused": false
+},
+"dat.laopaiboon2015::RR": {
+"exclude": [
+1
+],
+"k": 15,
+"refused": false
+},
+"dat.lau1992::RR": {
+"exclude": [
+20,
+31
+],
+"k": 33,
+"refused": false
+},
+"dat.lehmann2018::stored yi/vi": {
+"exclude": [
+3
+],
+"k": 81,
+"refused": false
+},
+"dat.lim2014::ZCOR": {
+"exclude": [
+15,
+44
+],
+"k": 170,
+"refused": false
+},
+"dat.linde2015::RR response arms 1-2": {
+"exclude": [
+5,
+30
+],
+"k": 59,
+"refused": false
+},
+"dat.lopez2019::stored yi/vi": {
+"exclude": [
+52,
+53
+],
+"k": 96,
+"refused": false
+},
+"dat.mcdaniel1994::COR": {
+"exclude": [
+32,
+129
+],
+"k": 160,
+"refused": false
+},
+"dat.mcdaniel1994::ZCOR": {
+"exclude": [
+29,
+129
+],
+"k": 160,
+"refused": false
+},
+"dat.meeker2017::GEN": {
+"exclude": [
+3
+],
+"k": 10,
+"refused": false
+},
+"dat.moore1998::RR": {
+"exclude": [
+25
+],
+"k": 37,
+"refused": false
+},
+"dat.moura2021::ZCOR": {
+"exclude": [
+100,
+322,
+323,
+353,
+591,
+659,
+677,
+688,
+689,
+729,
+730,
+754,
+779,
+879,
+921,
+922,
+925,
+1060,
+1190,
+1320,
+1322,
+1324,
+1768,
+1823
+],
+"k": 1828,
+"refused": false
+},
+"dat.nakagawa2007::ZCOR": {
+"exclude": [
+2
+],
+"k": 15,
+"refused": false
+},
+"dat.nielweise2007::OR": {
+"exclude": [
+13
+],
+"k": 17,
+"refused": false
+},
+"dat.nielweise2008::IRR": {
+"exclude": [
+2
+],
+"k": 9,
+"refused": false
+},
+"dat.nissen2007::OR": {
+"exclude": [
+36,
+37
+],
+"k": 38,
+"refused": false
+},
+"dat.normand1999::SMD": {
+"exclude": [
+2
+],
+"k": 9,
+"refused": false
+},
+"dat.pignon2000::stored yi/vi": {
+"exclude": [
+41
+],
+"k": 65,
+"refused": false
+},
+"dat.poole2003::MD": {
+"exclude": [
+2
+],
+"k": 17,
+"refused": false
+},
+"dat.raudenbush1985::SMD": {
+"exclude": [
+9
+],
+"k": 19,
+"refused": false
+},
+"dat.riley2003::GEN": {
+"exclude": [
+58
+],
+"k": 98,
+"refused": false
+},
+"dat.roever2022::PLO arm-level": {
+"exclude": [
+8,
+11
+],
+"k": 37,
+"refused": false
+},
+"dat.senn2013::MN": {
+"exclude": [
+49,
+50
+],
+"k": 53,
+"refused": false
+},
+"dat.steurer2006::logHR stored": {
+"exclude": [
+1
+],
+"k": 4,
+"refused": false
+},
+"dat.stowe2010::MD arms 1-2": {
+"exclude": [
+16
+],
+"k": 29,
+"refused": false
+},
+"dat.tannersmith2016::stored yi/vi": {
+"exclude": [
+110
+],
+"k": 113,
+"refused": false
+},
+"dat.tian2009::PLO arm-level": {
+"exclude": [
+14,
+80,
+81,
+83
+],
+"k": 96,
+"refused": false
+},
+"dat.ursino2021::PLO arm-level": {
+"exclude": [
+4,
+26,
+27
+],
+"k": 49,
+"refused": false
+},
+"dat.viechtbauer2021::OR": {
+"exclude": [
+5
+],
+"k": 20,
+"refused": false
+},
+"dat.white2020::ZCOR": {
+"exclude": [
+22,
+24
+],
+"k": 186,
+"refused": false
+},
+"dat.woods2010::PLO arm-level": {
+"exclude": [
+5
+],
+"k": 8,
+"refused": false
+},
+"dat.yusuf1985::RR": {
+"exclude": [
+42,
+50,
+53,
+56,
+60,
+73,
+76,
+79,
+96,
+99,
+107,
+113,
+116
+],
+"k": 118,
+"refused": false
+}
+},
+"R": [
+{
+"id": "dat.aloe2013::PCOR",
+"rep": 1,
+"k": 5,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.aloe2013::PCOR",
+"rep": 2,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.aloe2013::PCOR",
+"rep": 3,
+"k": 5,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.aloe2013::SPCOR",
+"rep": 1,
+"k": 5,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.aloe2013::SPCOR",
+"rep": 2,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.aloe2013::SPCOR",
+"rep": 3,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.aloe2013::ZPCOR",
+"rep": 1,
+"k": 5,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.aloe2013::ZPCOR",
+"rep": 2,
+"k": 5,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.aloe2013::ZPCOR",
+"rep": 3,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.anand1999::RR",
+"rep": 1,
+"k": 34,
+"exclude": [
+0,
+7,
+25,
+29,
+31,
+33
+]
+},
+{
+"id": "dat.anand1999::RR",
+"rep": 2,
+"k": 34,
+"exclude": [
+2,
+3,
+7,
+13,
+14,
+33
+]
+},
+{
+"id": "dat.anand1999::RR",
+"rep": 3,
+"k": 34,
+"exclude": [
+4,
+5,
+6,
+16,
+19,
+25
+]
+},
+{
+"id": "dat.anker2025::GEN",
+"rep": 1,
+"k": 6,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.anker2025::GEN",
+"rep": 2,
+"k": 6,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.anker2025::GEN",
+"rep": 3,
+"k": 6,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.anker2025::IRR",
+"rep": 1,
+"k": 6,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.anker2025::IRR",
+"rep": 2,
+"k": 6,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.anker2025::IRR",
+"rep": 3,
+"k": 6,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.assink2016::SMD",
+"rep": 1,
+"k": 100,
+"exclude": [
+1,
+6,
+10,
+12,
+13,
+19,
+21,
+32,
+35,
+38,
+45,
+46,
+59,
+67,
+71,
+72,
+75,
+92,
+94,
+95
+]
+},
+{
+"id": "dat.assink2016::SMD",
+"rep": 2,
+"k": 100,
+"exclude": [
+1,
+12,
+20,
+26,
+27,
+34,
+42,
+49,
+50,
+54,
+71,
+72,
+76,
+78,
+82,
+83,
+85,
+87,
+93,
+99
+]
+},
+{
+"id": "dat.assink2016::SMD",
+"rep": 3,
+"k": 100,
+"exclude": [
+3,
+5,
+8,
+9,
+10,
+22,
+30,
+32,
+33,
+34,
+40,
+41,
+47,
+66,
+67,
+79,
+89,
+90,
+92,
+95
+]
+},
+{
+"id": "dat.axfors2021::OR",
+"rep": 1,
+"k": 33,
+"exclude": [
+1,
+6,
+7,
+13,
+18,
+21
+]
+},
+{
+"id": "dat.axfors2021::OR",
+"rep": 2,
+"k": 33,
+"exclude": [
+0,
+4,
+5,
+6,
+28,
+29
+]
+},
+{
+"id": "dat.axfors2021::OR",
+"rep": 3,
+"k": 33,
+"exclude": [
+5,
+11,
+16,
+17,
+30,
+32
+]
+},
+{
+"id": "dat.baker2009::PLO arm-level",
+"rep": 1,
+"k": 94,
+"exclude": [
+7,
+19,
+28,
+31,
+35,
+37,
+39,
+46,
+47,
+49,
+55,
+57,
+61,
+65,
+76,
+81,
+89,
+90
+]
+},
+{
+"id": "dat.baker2009::PLO arm-level",
+"rep": 2,
+"k": 94,
+"exclude": [
+0,
+6,
+11,
+18,
+21,
+27,
+28,
+32,
+35,
+41,
+47,
+58,
+66,
+70,
+81,
+83,
+85,
+91
+]
+},
+{
+"id": "dat.baker2009::PLO arm-level",
+"rep": 3,
+"k": 94,
+"exclude": [
+5,
+8,
+13,
+14,
+15,
+26,
+30,
+35,
+52,
+65,
+73,
+75,
+77,
+80,
+86,
+88,
+90,
+91
+]
+},
+{
+"id": "dat.bangertdrowns2004::SMD",
+"rep": 1,
+"k": 48,
+"exclude": [
+16,
+20,
+21,
+24,
+33,
+35,
+36,
+43,
+46
+]
+},
+{
+"id": "dat.bangertdrowns2004::SMD",
+"rep": 2,
+"k": 48,
+"exclude": [
+2,
+7,
+12,
+16,
+18,
+24,
+31,
+35,
+46
+]
+},
+{
+"id": "dat.bangertdrowns2004::SMD",
+"rep": 3,
+"k": 48,
+"exclude": [
+0,
+4,
+15,
+21,
+24,
+38,
+39,
+40,
+42
+]
+},
+{
+"id": "dat.bartos2023::PR",
+"rep": 1,
+"k": 96,
+"exclude": [
+0,
+2,
+6,
+15,
+16,
+19,
+21,
+22,
+30,
+34,
+35,
+52,
+54,
+61,
+69,
+77,
+81,
+90,
+94
+]
+},
+{
+"id": "dat.bartos2023::PR",
+"rep": 2,
+"k": 96,
+"exclude": [
+10,
+14,
+19,
+28,
+29,
+30,
+41,
+43,
+45,
+49,
+55,
+56,
+58,
+61,
+71,
+72,
+79,
+81,
+83
+]
+},
+{
+"id": "dat.bartos2023::PR",
+"rep": 3,
+"k": 96,
+"exclude": [
+5,
+9,
+14,
+15,
+19,
+28,
+35,
+37,
+43,
+54,
+55,
+69,
+77,
+79,
+83,
+85,
+86,
+91,
+94
+]
+},
+{
+"id": "dat.baskerville2012::SMD stored",
+"rep": 1,
+"k": 23,
+"exclude": [
+8,
+9,
+12,
+17
+]
+},
+{
+"id": "dat.baskerville2012::SMD stored",
+"rep": 2,
+"k": 23,
+"exclude": [
+2,
+6,
+17,
+18
+]
+},
+{
+"id": "dat.baskerville2012::SMD stored",
+"rep": 3,
+"k": 23,
+"exclude": [
+7,
+16,
+17,
+21
+]
+},
+{
+"id": "dat.bassler2004::RR",
+"rep": 1,
+"k": 10,
+"exclude": [
+8,
+9
+]
+},
+{
+"id": "dat.bassler2004::RR",
+"rep": 2,
+"k": 10,
+"exclude": [
+8,
+9
+]
+},
+{
+"id": "dat.bassler2004::RR",
+"rep": 3,
+"k": 10,
+"exclude": [
+0,
+1
+]
+},
+{
+"id": "dat.bauer2002::CLES",
+"rep": 1,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.bauer2002::CLES",
+"rep": 2,
+"k": 5,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.bauer2002::CLES",
+"rep": 3,
+"k": 5,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.bauer2002::PLO",
+"rep": 1,
+"k": 5,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.bauer2002::PLO",
+"rep": 2,
+"k": 5,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.bauer2002::PLO",
+"rep": 3,
+"k": 5,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.bcg::RR",
+"rep": 1,
+"k": 13,
+"exclude": [
+1,
+9
+]
+},
+{
+"id": "dat.bcg::RR",
+"rep": 2,
+"k": 13,
+"exclude": [
+7,
+11
+]
+},
+{
+"id": "dat.bcg::RR",
+"rep": 3,
+"k": 13,
+"exclude": [
+4,
+12
+]
+},
+{
+"id": "dat.begg1989::PR",
+"rep": 1,
+"k": 20,
+"exclude": [
+3,
+10,
+16,
+18
+]
+},
+{
+"id": "dat.begg1989::PR",
+"rep": 2,
+"k": 20,
+"exclude": [
+7,
+9,
+13,
+19
+]
+},
+{
+"id": "dat.begg1989::PR",
+"rep": 3,
+"k": 20,
+"exclude": [
+2,
+8,
+15,
+17
+]
+},
+{
+"id": "dat.berkey1998::MD",
+"rep": 1,
+"k": 10,
+"exclude": [
+3,
+5
+]
+},
+{
+"id": "dat.berkey1998::MD",
+"rep": 2,
+"k": 10,
+"exclude": [
+4,
+7
+]
+},
+{
+"id": "dat.berkey1998::MD",
+"rep": 3,
+"k": 10,
+"exclude": [
+6,
+8
+]
+},
+{
+"id": "dat.berkey1998r::stored yi/vi",
+"rep": 1,
+"k": 10,
+"exclude": [
+2,
+4
+]
+},
+{
+"id": "dat.berkey1998r::stored yi/vi",
+"rep": 2,
+"k": 10,
+"exclude": [
+6,
+9
+]
+},
+{
+"id": "dat.berkey1998r::stored yi/vi",
+"rep": 3,
+"k": 10,
+"exclude": [
+1,
+9
+]
+},
+{
+"id": "dat.besson2016::SMD",
+"rep": 1,
+"k": 389,
+"exclude": [
+1,
+9,
+11,
+21,
+29,
+32,
+34,
+38,
+40,
+45,
+50,
+52,
+59,
+63,
+67,
+72,
+75,
+77,
+79,
+83,
+93,
+95,
+108,
+111,
+125,
+131,
+132,
+140,
+142,
+152,
+160,
+162,
+169,
+175,
+177,
+179,
+181,
+183,
+194,
+198,
+202,
+205,
+206,
+221,
+224,
+234,
+236,
+241,
+245,
+248,
+268,
+275,
+277,
+279,
+280,
+281,
+289,
+294,
+296,
+302,
+303,
+304,
+309,
+310,
+326,
+330,
+331,
+334,
+338,
+342,
+343,
+356,
+363,
+372,
+382,
+383,
+387
+]
+},
+{
+"id": "dat.besson2016::SMD",
+"rep": 2,
+"k": 389,
+"exclude": [
+3,
+5,
+9,
+14,
+18,
+20,
+21,
+30,
+31,
+38,
+42,
+45,
+48,
+54,
+62,
+67,
+72,
+73,
+84,
+85,
+86,
+87,
+89,
+95,
+113,
+116,
+117,
+122,
+123,
+128,
+129,
+131,
+136,
+150,
+153,
+163,
+169,
+188,
+193,
+195,
+196,
+197,
+220,
+223,
+227,
+228,
+230,
+233,
+241,
+249,
+250,
+252,
+255,
+259,
+268,
+273,
+276,
+285,
+286,
+301,
+313,
+315,
+317,
+322,
+323,
+324,
+328,
+333,
+338,
+340,
+345,
+351,
+369,
+370,
+376,
+383,
+387
+]
+},
+{
+"id": "dat.besson2016::SMD",
+"rep": 3,
+"k": 389,
+"exclude": [
+0,
+8,
+14,
+15,
+16,
+17,
+22,
+32,
+34,
+43,
+46,
+47,
+50,
+52,
+56,
+66,
+67,
+75,
+84,
+91,
+92,
+98,
+103,
+107,
+110,
+128,
+129,
+137,
+141,
+143,
+148,
+150,
+154,
+159,
+164,
+167,
+168,
+180,
+183,
+185,
+190,
+205,
+206,
+209,
+213,
+220,
+224,
+227,
+236,
+237,
+239,
+246,
+247,
+249,
+250,
+259,
+262,
+266,
+267,
+270,
+279,
+291,
+292,
+293,
+302,
+305,
+308,
+309,
+338,
+351,
+356,
+359,
+364,
+371,
+381,
+383,
+388
+]
+},
+{
+"id": "dat.bonett2010::ABT",
+"rep": 1,
+"k": 9,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.bonett2010::ABT",
+"rep": 2,
+"k": 9,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.bonett2010::ABT",
+"rep": 3,
+"k": 9,
+"exclude": [
+8
+]
+},
+{
+"id": "dat.bonett2010::AHW",
+"rep": 1,
+"k": 9,
+"exclude": [
+7
+]
+},
+{
+"id": "dat.bonett2010::AHW",
+"rep": 2,
+"k": 9,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.bonett2010::AHW",
+"rep": 3,
+"k": 9,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.bonett2010::ARAW",
+"rep": 1,
+"k": 9,
+"exclude": [
+7
+]
+},
+{
+"id": "dat.bonett2010::ARAW",
+"rep": 2,
+"k": 9,
+"exclude": [
+7
+]
+},
+{
+"id": "dat.bonett2010::ARAW",
+"rep": 3,
+"k": 9,
+"exclude": [
+6
+]
+},
+{
+"id": "dat.bornmann2007::OR",
+"rep": 1,
+"k": 66,
+"exclude": [
+7,
+9,
+10,
+11,
+13,
+20,
+22,
+28,
+46,
+52,
+59,
+62,
+64
+]
+},
+{
+"id": "dat.bornmann2007::OR",
+"rep": 2,
+"k": 66,
+"exclude": [
+8,
+9,
+14,
+17,
+24,
+27,
+32,
+39,
+52,
+55,
+59,
+60,
+64
+]
+},
+{
+"id": "dat.bornmann2007::OR",
+"rep": 3,
+"k": 66,
+"exclude": [
+0,
+1,
+10,
+18,
+24,
+29,
+37,
+43,
+45,
+49,
+52,
+53,
+56
+]
+},
+{
+"id": "dat.bourassa1996::OR",
+"rep": 1,
+"k": 96,
+"exclude": [
+0,
+2,
+3,
+14,
+16,
+31,
+37,
+48,
+49,
+57,
+58,
+60,
+68,
+72,
+74,
+76,
+79,
+80,
+93
+]
+},
+{
+"id": "dat.bourassa1996::OR",
+"rep": 2,
+"k": 96,
+"exclude": [
+6,
+10,
+11,
+27,
+30,
+33,
+34,
+35,
+38,
+48,
+57,
+65,
+69,
+72,
+73,
+75,
+77,
+79,
+86
+]
+},
+{
+"id": "dat.bourassa1996::OR",
+"rep": 3,
+"k": 96,
+"exclude": [
+10,
+13,
+15,
+17,
+18,
+22,
+29,
+33,
+34,
+41,
+46,
+54,
+62,
+64,
+68,
+73,
+86,
+93,
+95
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint1",
+"rep": 1,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint1",
+"rep": 2,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint1",
+"rep": 3,
+"k": 4,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint2",
+"rep": 1,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint2",
+"rep": 2,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint2",
+"rep": 3,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint3",
+"rep": 1,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint3",
+"rep": 2,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint3",
+"rep": 3,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint4",
+"rep": 1,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint4",
+"rep": 2,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint4",
+"rep": 3,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint5",
+"rep": 1,
+"k": 4,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint5",
+"rep": 2,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint5",
+"rep": 3,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint6",
+"rep": 1,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint6",
+"rep": 2,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.cannon2006::OR endpoint6",
+"rep": 3,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.chiarito2020::OR",
+"rep": 1,
+"k": 8,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.chiarito2020::OR",
+"rep": 2,
+"k": 8,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.chiarito2020::OR",
+"rep": 3,
+"k": 8,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.cohen1981::ZCOR",
+"rep": 1,
+"k": 20,
+"exclude": [
+7,
+8,
+9,
+12
+]
+},
+{
+"id": "dat.cohen1981::ZCOR",
+"rep": 2,
+"k": 20,
+"exclude": [
+1,
+2,
+6,
+18
+]
+},
+{
+"id": "dat.cohen1981::ZCOR",
+"rep": 3,
+"k": 20,
+"exclude": [
+0,
+1,
+4,
+6
+]
+},
+{
+"id": "dat.colditz1994::RR",
+"rep": 1,
+"k": 13,
+"exclude": [
+4,
+12
+]
+},
+{
+"id": "dat.colditz1994::RR",
+"rep": 2,
+"k": 13,
+"exclude": [
+2,
+12
+]
+},
+{
+"id": "dat.colditz1994::RR",
+"rep": 3,
+"k": 13,
+"exclude": [
+0,
+4
+]
+},
+{
+"id": "dat.collins1985a::OR recurrent bleeding",
+"rep": 1,
+"k": 25,
+"exclude": [
+1,
+13,
+15,
+17,
+20
+]
+},
+{
+"id": "dat.collins1985a::OR recurrent bleeding",
+"rep": 2,
+"k": 25,
+"exclude": [
+3,
+4,
+6,
+7,
+24
+]
+},
+{
+"id": "dat.collins1985a::OR recurrent bleeding",
+"rep": 3,
+"k": 25,
+"exclude": [
+0,
+15,
+16,
+21,
+22
+]
+},
+{
+"id": "dat.collins1985b::OR",
+"rep": 1,
+"k": 9,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.collins1985b::OR",
+"rep": 2,
+"k": 9,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.collins1985b::OR",
+"rep": 3,
+"k": 9,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.craft2003::COR",
+"rep": 1,
+"k": 54,
+"exclude": [
+17,
+23,
+24,
+28,
+38,
+39,
+45,
+46,
+47,
+51
+]
+},
+{
+"id": "dat.craft2003::COR",
+"rep": 2,
+"k": 54,
+"exclude": [
+19,
+20,
+21,
+28,
+30,
+34,
+39,
+40,
+41,
+46
+]
+},
+{
+"id": "dat.craft2003::COR",
+"rep": 3,
+"k": 54,
+"exclude": [
+13,
+20,
+26,
+32,
+35,
+38,
+42,
+43,
+51,
+52
+]
+},
+{
+"id": "dat.crede2010::ZCOR",
+"rep": 1,
+"k": 97,
+"exclude": [
+1,
+3,
+8,
+20,
+21,
+22,
+23,
+33,
+35,
+41,
+42,
+45,
+65,
+66,
+67,
+72,
+77,
+89,
+93
+]
+},
+{
+"id": "dat.crede2010::ZCOR",
+"rep": 2,
+"k": 97,
+"exclude": [
+0,
+3,
+7,
+10,
+16,
+19,
+26,
+30,
+35,
+39,
+41,
+45,
+74,
+76,
+80,
+85,
+87,
+90,
+91
+]
+},
+{
+"id": "dat.crede2010::ZCOR",
+"rep": 3,
+"k": 97,
+"exclude": [
+5,
+7,
+14,
+23,
+29,
+32,
+37,
+52,
+53,
+54,
+66,
+78,
+79,
+80,
+85,
+89,
+94,
+95,
+96
+]
+},
+{
+"id": "dat.crisafulli2020::PLN",
+"rep": 1,
+"k": 26,
+"exclude": [
+2,
+3,
+4,
+19,
+21
+]
+},
+{
+"id": "dat.crisafulli2020::PLN",
+"rep": 2,
+"k": 26,
+"exclude": [
+4,
+6,
+7,
+9,
+17
+]
+},
+{
+"id": "dat.crisafulli2020::PLN",
+"rep": 3,
+"k": 26,
+"exclude": [
+3,
+10,
+13,
+15,
+23
+]
+},
+{
+"id": "dat.curtin2002::MD stored",
+"rep": 1,
+"k": 21,
+"exclude": [
+3,
+7,
+9,
+19
+]
+},
+{
+"id": "dat.curtin2002::MD stored",
+"rep": 2,
+"k": 21,
+"exclude": [
+4,
+15,
+16,
+19
+]
+},
+{
+"id": "dat.curtin2002::MD stored",
+"rep": 3,
+"k": 21,
+"exclude": [
+8,
+11,
+13,
+19
+]
+},
+{
+"id": "dat.curtis1998::ROM",
+"rep": 1,
+"k": 102,
+"exclude": [
+6,
+7,
+11,
+17,
+23,
+26,
+33,
+38,
+39,
+42,
+44,
+50,
+63,
+64,
+65,
+69,
+85,
+89,
+91,
+98
+]
+},
+{
+"id": "dat.curtis1998::ROM",
+"rep": 2,
+"k": 102,
+"exclude": [
+0,
+6,
+19,
+23,
+26,
+27,
+48,
+50,
+59,
+61,
+63,
+70,
+73,
+83,
+85,
+88,
+90,
+91,
+94,
+95
+]
+},
+{
+"id": "dat.curtis1998::ROM",
+"rep": 3,
+"k": 102,
+"exclude": [
+0,
+2,
+10,
+11,
+15,
+16,
+18,
+20,
+29,
+35,
+37,
+46,
+51,
+63,
+73,
+80,
+88,
+90,
+95,
+98
+]
+},
+{
+"id": "dat.dagostino1998::OR",
+"rep": 1,
+"k": 68,
+"exclude": [
+5,
+18,
+19,
+31,
+33,
+35,
+36,
+38,
+39,
+49,
+56,
+60,
+62
+]
+},
+{
+"id": "dat.dagostino1998::OR",
+"rep": 2,
+"k": 68,
+"exclude": [
+1,
+3,
+16,
+29,
+34,
+36,
+40,
+41,
+42,
+43,
+44,
+56,
+65
+]
+},
+{
+"id": "dat.dagostino1998::OR",
+"rep": 3,
+"k": 68,
+"exclude": [
+2,
+4,
+8,
+18,
+22,
+24,
+25,
+32,
+33,
+39,
+44,
+50,
+62
+]
+},
+{
+"id": "dat.dagostino1998::SMD",
+"rep": 1,
+"k": 34,
+"exclude": [
+6,
+16,
+21,
+23,
+29,
+31
+]
+},
+{
+"id": "dat.dagostino1998::SMD",
+"rep": 2,
+"k": 34,
+"exclude": [
+7,
+12,
+16,
+19,
+20,
+32
+]
+},
+{
+"id": "dat.dagostino1998::SMD",
+"rep": 3,
+"k": 34,
+"exclude": [
+6,
+8,
+15,
+22,
+25,
+33
+]
+},
+{
+"id": "dat.damico2009::OR",
+"rep": 1,
+"k": 16,
+"exclude": [
+10,
+12,
+14
+]
+},
+{
+"id": "dat.damico2009::OR",
+"rep": 2,
+"k": 16,
+"exclude": [
+3,
+6,
+10
+]
+},
+{
+"id": "dat.damico2009::OR",
+"rep": 3,
+"k": 16,
+"exclude": [
+5,
+10,
+14
+]
+},
+{
+"id": "dat.debruin2009::PR",
+"rep": 1,
+"k": 13,
+"exclude": [
+4,
+5
+]
+},
+{
+"id": "dat.debruin2009::PR",
+"rep": 2,
+"k": 13,
+"exclude": [
+9,
+10
+]
+},
+{
+"id": "dat.debruin2009::PR",
+"rep": 3,
+"k": 13,
+"exclude": [
+3,
+4
+]
+},
+{
+"id": "dat.demir2022::ABT",
+"rep": 1,
+"k": 33,
+"exclude": [
+13,
+15,
+25,
+28,
+31,
+32
+]
+},
+{
+"id": "dat.demir2022::ABT",
+"rep": 2,
+"k": 33,
+"exclude": [
+0,
+7,
+12,
+14,
+18,
+22
+]
+},
+{
+"id": "dat.demir2022::ABT",
+"rep": 3,
+"k": 33,
+"exclude": [
+11,
+13,
+15,
+19,
+24,
+31
+]
+},
+{
+"id": "dat.dogliotti2014::PLO arm-level",
+"rep": 1,
+"k": 44,
+"exclude": [
+6,
+8,
+10,
+15,
+21,
+24,
+29,
+43
+]
+},
+{
+"id": "dat.dogliotti2014::PLO arm-level",
+"rep": 2,
+"k": 44,
+"exclude": [
+0,
+17,
+24,
+25,
+32,
+39,
+40,
+42
+]
+},
+{
+"id": "dat.dogliotti2014::PLO arm-level",
+"rep": 3,
+"k": 44,
+"exclude": [
+2,
+7,
+8,
+11,
+12,
+24,
+26,
+33
+]
+},
+{
+"id": "dat.dong2013::PLO arm-level",
+"rep": 1,
+"k": 99,
+"exclude": [
+6,
+11,
+25,
+41,
+43,
+51,
+53,
+54,
+59,
+63,
+67,
+68,
+71,
+77,
+83,
+87,
+94,
+95,
+97
+]
+},
+{
+"id": "dat.dong2013::PLO arm-level",
+"rep": 2,
+"k": 99,
+"exclude": [
+1,
+3,
+7,
+10,
+12,
+14,
+23,
+25,
+43,
+52,
+54,
+57,
+62,
+67,
+74,
+86,
+92,
+93,
+96
+]
+},
+{
+"id": "dat.dong2013::PLO arm-level",
+"rep": 3,
+"k": 99,
+"exclude": [
+12,
+23,
+24,
+25,
+34,
+37,
+44,
+47,
+48,
+50,
+61,
+82,
+84,
+86,
+87,
+91,
+94,
+96,
+98
+]
+},
+{
+"id": "dat.dorn2007::RR",
+"rep": 1,
+"k": 19,
+"exclude": [
+11,
+13,
+15
+]
+},
+{
+"id": "dat.dorn2007::RR",
+"rep": 2,
+"k": 19,
+"exclude": [
+2,
+7,
+15
+]
+},
+{
+"id": "dat.dorn2007::RR",
+"rep": 3,
+"k": 19,
+"exclude": [
+3,
+7,
+18
+]
+},
+{
+"id": "dat.dumouchel1994::OR",
+"rep": 1,
+"k": 9,
+"exclude": [
+7
+]
+},
+{
+"id": "dat.dumouchel1994::OR",
+"rep": 2,
+"k": 9,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.dumouchel1994::OR",
+"rep": 3,
+"k": 9,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.egger2001::RR",
+"rep": 1,
+"k": 16,
+"exclude": [
+0,
+8,
+15
+]
+},
+{
+"id": "dat.egger2001::RR",
+"rep": 2,
+"k": 16,
+"exclude": [
+3,
+11,
+13
+]
+},
+{
+"id": "dat.egger2001::RR",
+"rep": 3,
+"k": 16,
+"exclude": [
+1,
+2,
+6
+]
+},
+{
+"id": "dat.feng2019::PLO",
+"rep": 1,
+"k": 19,
+"exclude": [
+2,
+8,
+10
+]
+},
+{
+"id": "dat.feng2019::PLO",
+"rep": 2,
+"k": 19,
+"exclude": [
+5,
+14,
+16
+]
+},
+{
+"id": "dat.feng2019::PLO",
+"rep": 3,
+"k": 19,
+"exclude": [
+8,
+11,
+14
+]
+},
+{
+"id": "dat.fine1993::stored yi/vi",
+"rep": 1,
+"k": 66,
+"exclude": [
+3,
+6,
+8,
+9,
+12,
+13,
+20,
+24,
+25,
+33,
+54,
+55,
+60
+]
+},
+{
+"id": "dat.fine1993::stored yi/vi",
+"rep": 2,
+"k": 66,
+"exclude": [
+10,
+12,
+16,
+21,
+23,
+25,
+27,
+39,
+43,
+44,
+49,
+60,
+61
+]
+},
+{
+"id": "dat.fine1993::stored yi/vi",
+"rep": 3,
+"k": 66,
+"exclude": [
+0,
+1,
+10,
+14,
+15,
+32,
+36,
+38,
+49,
+54,
+60,
+63,
+64
+]
+},
+{
+"id": "dat.franchini2012::MD arms 1-2",
+"rep": 1,
+"k": 7,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.franchini2012::MD arms 1-2",
+"rep": 2,
+"k": 7,
+"exclude": [
+6
+]
+},
+{
+"id": "dat.franchini2012::MD arms 1-2",
+"rep": 3,
+"k": 7,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.frank2008::OR",
+"rep": 1,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.frank2008::OR",
+"rep": 2,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.frank2008::OR",
+"rep": 3,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.frank2008::REH",
+"rep": 1,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.frank2008::REH",
+"rep": 2,
+"k": 4,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.frank2008::REH",
+"rep": 3,
+"k": 4,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.furukawa2003::SMD",
+"rep": 1,
+"k": 17,
+"exclude": [
+2,
+3,
+7
+]
+},
+{
+"id": "dat.furukawa2003::SMD",
+"rep": 2,
+"k": 17,
+"exclude": [
+1,
+9,
+11
+]
+},
+{
+"id": "dat.furukawa2003::SMD",
+"rep": 3,
+"k": 17,
+"exclude": [
+10,
+11,
+16
+]
+},
+{
+"id": "dat.gibson2002::PBIT",
+"rep": 1,
+"k": 15,
+"exclude": [
+1,
+7,
+9
+]
+},
+{
+"id": "dat.gibson2002::PBIT",
+"rep": 2,
+"k": 15,
+"exclude": [
+3,
+7,
+11
+]
+},
+{
+"id": "dat.gibson2002::PBIT",
+"rep": 3,
+"k": 15,
+"exclude": [
+1,
+7,
+14
+]
+},
+{
+"id": "dat.gibson2002::RR",
+"rep": 1,
+"k": 7,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.gibson2002::RR",
+"rep": 2,
+"k": 7,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.gibson2002::RR",
+"rep": 3,
+"k": 7,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.gibson2002::SMD",
+"rep": 1,
+"k": 13,
+"exclude": [
+2,
+11
+]
+},
+{
+"id": "dat.gibson2002::SMD",
+"rep": 2,
+"k": 13,
+"exclude": [
+2,
+5
+]
+},
+{
+"id": "dat.gibson2002::SMD",
+"rep": 3,
+"k": 13,
+"exclude": [
+4,
+11
+]
+},
+{
+"id": "dat.graves2010::RR",
+"rep": 1,
+"k": 17,
+"exclude": [
+2,
+4,
+9
+]
+},
+{
+"id": "dat.graves2010::RR",
+"rep": 2,
+"k": 17,
+"exclude": [
+7,
+15,
+16
+]
+},
+{
+"id": "dat.graves2010::RR",
+"rep": 3,
+"k": 17,
+"exclude": [
+6,
+12,
+16
+]
+},
+{
+"id": "dat.greb2008::RR",
+"rep": 1,
+"k": 14,
+"exclude": [
+0,
+7
+]
+},
+{
+"id": "dat.greb2008::RR",
+"rep": 2,
+"k": 14,
+"exclude": [
+6,
+10
+]
+},
+{
+"id": "dat.greb2008::RR",
+"rep": 3,
+"k": 14,
+"exclude": [
+1,
+13
+]
+},
+{
+"id": "dat.greenland1992::coefficient stored",
+"rep": 1,
+"k": 16,
+"exclude": [
+3,
+8,
+13
+]
+},
+{
+"id": "dat.greenland1992::coefficient stored",
+"rep": 2,
+"k": 16,
+"exclude": [
+2,
+7,
+8
+]
+},
+{
+"id": "dat.greenland1992::coefficient stored",
+"rep": 3,
+"k": 16,
+"exclude": [
+0,
+2,
+4
+]
+},
+{
+"id": "dat.gurusamy2011::PLO arm-level",
+"rep": 1,
+"k": 29,
+"exclude": [
+1,
+12,
+16,
+22,
+23
+]
+},
+{
+"id": "dat.gurusamy2011::PLO arm-level",
+"rep": 2,
+"k": 29,
+"exclude": [
+9,
+13,
+14,
+15,
+20
+]
+},
+{
+"id": "dat.gurusamy2011::PLO arm-level",
+"rep": 3,
+"k": 29,
+"exclude": [
+0,
+1,
+5,
+9,
+21
+]
+},
+{
+"id": "dat.hackshaw1998::GEN",
+"rep": 1,
+"k": 37,
+"exclude": [
+4,
+5,
+7,
+12,
+13,
+15,
+28
+]
+},
+{
+"id": "dat.hackshaw1998::GEN",
+"rep": 2,
+"k": 37,
+"exclude": [
+1,
+2,
+4,
+5,
+16,
+30,
+36
+]
+},
+{
+"id": "dat.hackshaw1998::GEN",
+"rep": 3,
+"k": 37,
+"exclude": [
+1,
+7,
+9,
+12,
+23,
+25,
+26
+]
+},
+{
+"id": "dat.hackshaw1998::OR",
+"rep": 1,
+"k": 37,
+"exclude": [
+5,
+13,
+16,
+23,
+24,
+32,
+36
+]
+},
+{
+"id": "dat.hackshaw1998::OR",
+"rep": 2,
+"k": 37,
+"exclude": [
+2,
+8,
+12,
+16,
+23,
+25,
+35
+]
+},
+{
+"id": "dat.hackshaw1998::OR",
+"rep": 3,
+"k": 37,
+"exclude": [
+1,
+8,
+10,
+13,
+24,
+28,
+34
+]
+},
+{
+"id": "dat.hahn2001::RR",
+"rep": 1,
+"k": 12,
+"exclude": [
+1,
+9
+]
+},
+{
+"id": "dat.hahn2001::RR",
+"rep": 2,
+"k": 12,
+"exclude": [
+0,
+3
+]
+},
+{
+"id": "dat.hahn2001::RR",
+"rep": 3,
+"k": 12,
+"exclude": [
+6,
+8
+]
+},
+{
+"id": "dat.hannum2020::PR",
+"rep": 1,
+"k": 35,
+"exclude": [
+13,
+14,
+16,
+22,
+26,
+30,
+34
+]
+},
+{
+"id": "dat.hannum2020::PR",
+"rep": 2,
+"k": 35,
+"exclude": [
+0,
+3,
+13,
+14,
+17,
+26,
+33
+]
+},
+{
+"id": "dat.hannum2020::PR",
+"rep": 3,
+"k": 35,
+"exclude": [
+1,
+5,
+8,
+9,
+15,
+21,
+22
+]
+},
+{
+"id": "dat.hart1999::IRD",
+"rep": 1,
+"k": 6,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.hart1999::IRD",
+"rep": 2,
+"k": 6,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.hart1999::IRD",
+"rep": 3,
+"k": 6,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.hart1999::IRR",
+"rep": 1,
+"k": 6,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.hart1999::IRR",
+"rep": 2,
+"k": 6,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.hart1999::IRR",
+"rep": 3,
+"k": 6,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.hartmannboyce2018::RR",
+"rep": 1,
+"k": 136,
+"exclude": [
+3,
+5,
+7,
+16,
+39,
+40,
+44,
+51,
+52,
+61,
+70,
+77,
+79,
+80,
+83,
+85,
+87,
+91,
+92,
+97,
+101,
+102,
+104,
+105,
+112,
+114,
+134
+]
+},
+{
+"id": "dat.hartmannboyce2018::RR",
+"rep": 2,
+"k": 136,
+"exclude": [
+9,
+15,
+26,
+32,
+40,
+49,
+50,
+54,
+55,
+57,
+63,
+67,
+68,
+71,
+72,
+74,
+84,
+87,
+108,
+109,
+111,
+116,
+121,
+122,
+128,
+133,
+134
+]
+},
+{
+"id": "dat.hartmannboyce2018::RR",
+"rep": 3,
+"k": 136,
+"exclude": [
+11,
+14,
+15,
+23,
+25,
+29,
+30,
+36,
+40,
+43,
+45,
+46,
+47,
+61,
+63,
+71,
+74,
+84,
+85,
+89,
+99,
+100,
+106,
+112,
+119,
+134,
+135
+]
+},
+{
+"id": "dat.hasselblad1998::OR",
+"rep": 1,
+"k": 26,
+"exclude": [
+4,
+7,
+13,
+14,
+17
+]
+},
+{
+"id": "dat.hasselblad1998::OR",
+"rep": 2,
+"k": 26,
+"exclude": [
+0,
+6,
+10,
+21,
+24
+]
+},
+{
+"id": "dat.hasselblad1998::OR",
+"rep": 3,
+"k": 26,
+"exclude": [
+0,
+8,
+15,
+16,
+22
+]
+},
+{
+"id": "dat.hasselblad1998::PLO",
+"rep": 1,
+"k": 50,
+"exclude": [
+5,
+6,
+8,
+18,
+31,
+33,
+37,
+38,
+40,
+43
+]
+},
+{
+"id": "dat.hasselblad1998::PLO",
+"rep": 2,
+"k": 50,
+"exclude": [
+2,
+14,
+16,
+21,
+24,
+25,
+28,
+38,
+39,
+40
+]
+},
+{
+"id": "dat.hasselblad1998::PLO",
+"rep": 3,
+"k": 50,
+"exclude": [
+21,
+22,
+27,
+31,
+34,
+35,
+38,
+45,
+48,
+49
+]
+},
+{
+"id": "dat.higgins2008::RR available case",
+"rep": 1,
+"k": 17,
+"exclude": [
+6,
+7,
+16
+]
+},
+{
+"id": "dat.higgins2008::RR available case",
+"rep": 2,
+"k": 17,
+"exclude": [
+5,
+7,
+9
+]
+},
+{
+"id": "dat.higgins2008::RR available case",
+"rep": 3,
+"k": 17,
+"exclude": [
+2,
+3,
+8
+]
+},
+{
+"id": "dat.hine1989::RD",
+"rep": 1,
+"k": 6,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.hine1989::RD",
+"rep": 2,
+"k": 6,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.hine1989::RD",
+"rep": 3,
+"k": 6,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.huber2000::MD recurrence IPD",
+"rep": 1,
+"k": 5,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.huber2000::MD recurrence IPD",
+"rep": 2,
+"k": 5,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.huber2000::MD recurrence IPD",
+"rep": 3,
+"k": 5,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.ishak2007::MD",
+"rep": 1,
+"k": 82,
+"exclude": [
+0,
+1,
+3,
+4,
+12,
+21,
+37,
+41,
+49,
+56,
+63,
+64,
+65,
+67,
+69,
+78
+]
+},
+{
+"id": "dat.ishak2007::MD",
+"rep": 2,
+"k": 82,
+"exclude": [
+10,
+12,
+17,
+21,
+31,
+32,
+39,
+44,
+45,
+46,
+49,
+63,
+69,
+72,
+75,
+76
+]
+},
+{
+"id": "dat.ishak2007::MD",
+"rep": 3,
+"k": 82,
+"exclude": [
+5,
+9,
+14,
+21,
+33,
+36,
+39,
+41,
+42,
+46,
+47,
+48,
+52,
+56,
+67,
+72
+]
+},
+{
+"id": "dat.ishak2007::stored yi/vi",
+"rep": 1,
+"k": 82,
+"exclude": [
+11,
+12,
+15,
+30,
+31,
+32,
+39,
+42,
+45,
+50,
+51,
+52,
+53,
+60,
+68,
+77
+]
+},
+{
+"id": "dat.ishak2007::stored yi/vi",
+"rep": 2,
+"k": 82,
+"exclude": [
+6,
+13,
+18,
+21,
+28,
+33,
+35,
+47,
+51,
+53,
+57,
+58,
+59,
+62,
+66,
+68
+]
+},
+{
+"id": "dat.ishak2007::stored yi/vi",
+"rep": 3,
+"k": 82,
+"exclude": [
+3,
+18,
+20,
+21,
+22,
+36,
+43,
+45,
+53,
+56,
+59,
+62,
+65,
+70,
+77,
+81
+]
+},
+{
+"id": "dat.kalaian1996::stored yi/vi",
+"rep": 1,
+"k": 67,
+"exclude": [
+1,
+2,
+5,
+13,
+20,
+23,
+28,
+30,
+37,
+39,
+51,
+52,
+64
+]
+},
+{
+"id": "dat.kalaian1996::stored yi/vi",
+"rep": 2,
+"k": 67,
+"exclude": [
+0,
+5,
+9,
+12,
+22,
+23,
+24,
+25,
+31,
+34,
+39,
+44,
+61
+]
+},
+{
+"id": "dat.kalaian1996::stored yi/vi",
+"rep": 3,
+"k": 67,
+"exclude": [
+4,
+8,
+13,
+17,
+19,
+21,
+22,
+32,
+41,
+54,
+55,
+63,
+65
+]
+},
+{
+"id": "dat.karner2014::MD",
+"rep": 1,
+"k": 9,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.karner2014::MD",
+"rep": 2,
+"k": 9,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.karner2014::MD",
+"rep": 3,
+"k": 9,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.karner2014::OR",
+"rep": 1,
+"k": 22,
+"exclude": [
+3,
+6,
+13,
+19
+]
+},
+{
+"id": "dat.karner2014::OR",
+"rep": 2,
+"k": 22,
+"exclude": [
+1,
+7,
+14,
+15
+]
+},
+{
+"id": "dat.karner2014::OR",
+"rep": 3,
+"k": 22,
+"exclude": [
+4,
+9,
+14,
+18
+]
+},
+{
+"id": "dat.kearon1998::OR",
+"rep": 1,
+"k": 30,
+"exclude": [
+0,
+4,
+7,
+10,
+14,
+20
+]
+},
+{
+"id": "dat.kearon1998::OR",
+"rep": 2,
+"k": 30,
+"exclude": [
+10,
+13,
+14,
+16,
+22,
+26
+]
+},
+{
+"id": "dat.kearon1998::OR",
+"rep": 3,
+"k": 30,
+"exclude": [
+3,
+4,
+6,
+8,
+21,
+25
+]
+},
+{
+"id": "dat.kearon1998::PLO",
+"rep": 1,
+"k": 28,
+"exclude": [
+2,
+12,
+16,
+19,
+24
+]
+},
+{
+"id": "dat.kearon1998::PLO",
+"rep": 2,
+"k": 28,
+"exclude": [
+4,
+11,
+16,
+23,
+25
+]
+},
+{
+"id": "dat.kearon1998::PLO",
+"rep": 3,
+"k": 28,
+"exclude": [
+4,
+8,
+19,
+21,
+27
+]
+},
+{
+"id": "dat.knapp2017::stored yi/vi",
+"rep": 1,
+"k": 66,
+"exclude": [
+6,
+15,
+16,
+17,
+19,
+36,
+41,
+45,
+46,
+51,
+53,
+62,
+64
+]
+},
+{
+"id": "dat.knapp2017::stored yi/vi",
+"rep": 2,
+"k": 66,
+"exclude": [
+2,
+7,
+9,
+19,
+20,
+22,
+29,
+35,
+38,
+43,
+57,
+60,
+65
+]
+},
+{
+"id": "dat.knapp2017::stored yi/vi",
+"rep": 3,
+"k": 66,
+"exclude": [
+0,
+2,
+3,
+27,
+31,
+34,
+39,
+46,
+52,
+55,
+57,
+61,
+64
+]
+},
+{
+"id": "dat.konstantopoulos2011::SMD",
+"rep": 1,
+"k": 56,
+"exclude": [
+2,
+12,
+13,
+18,
+26,
+34,
+35,
+38,
+41,
+43,
+44
+]
+},
+{
+"id": "dat.konstantopoulos2011::SMD",
+"rep": 2,
+"k": 56,
+"exclude": [
+0,
+1,
+2,
+8,
+16,
+19,
+22,
+28,
+33,
+34,
+40
+]
+},
+{
+"id": "dat.konstantopoulos2011::SMD",
+"rep": 3,
+"k": 56,
+"exclude": [
+2,
+3,
+12,
+14,
+16,
+18,
+32,
+39,
+42,
+46,
+55
+]
+},
+{
+"id": "dat.landenberger2005::OR",
+"rep": 1,
+"k": 58,
+"exclude": [
+0,
+3,
+4,
+6,
+11,
+14,
+18,
+19,
+28,
+31,
+52
+]
+},
+{
+"id": "dat.landenberger2005::OR",
+"rep": 2,
+"k": 58,
+"exclude": [
+3,
+5,
+8,
+13,
+14,
+23,
+26,
+31,
+35,
+46,
+47
+]
+},
+{
+"id": "dat.landenberger2005::OR",
+"rep": 3,
+"k": 58,
+"exclude": [
+0,
+2,
+9,
+19,
+24,
+29,
+36,
+37,
+40,
+46,
+48
+]
+},
+{
+"id": "dat.laopaiboon2015::RR",
+"rep": 1,
+"k": 15,
+"exclude": [
+7,
+12,
+14
+]
+},
+{
+"id": "dat.laopaiboon2015::RR",
+"rep": 2,
+"k": 15,
+"exclude": [
+2,
+3,
+6
+]
+},
+{
+"id": "dat.laopaiboon2015::RR",
+"rep": 3,
+"k": 15,
+"exclude": [
+9,
+11,
+13
+]
+},
+{
+"id": "dat.lau1992::RR",
+"rep": 1,
+"k": 33,
+"exclude": [
+0,
+1,
+20,
+24,
+26,
+29
+]
+},
+{
+"id": "dat.lau1992::RR",
+"rep": 2,
+"k": 33,
+"exclude": [
+6,
+13,
+14,
+25,
+26,
+29
+]
+},
+{
+"id": "dat.lau1992::RR",
+"rep": 3,
+"k": 33,
+"exclude": [
+2,
+5,
+14,
+24,
+25,
+31
+]
+},
+{
+"id": "dat.lee2004::RR",
+"rep": 1,
+"k": 16,
+"exclude": [
+1,
+3,
+13
+]
+},
+{
+"id": "dat.lee2004::RR",
+"rep": 2,
+"k": 16,
+"exclude": [
+1,
+9,
+15
+]
+},
+{
+"id": "dat.lee2004::RR",
+"rep": 3,
+"k": 16,
+"exclude": [
+5,
+6,
+13
+]
+},
+{
+"id": "dat.lehmann2018::stored yi/vi",
+"rep": 1,
+"k": 81,
+"exclude": [
+2,
+14,
+16,
+22,
+23,
+28,
+35,
+38,
+42,
+44,
+59,
+63,
+64,
+66,
+76,
+77
+]
+},
+{
+"id": "dat.lehmann2018::stored yi/vi",
+"rep": 2,
+"k": 81,
+"exclude": [
+1,
+3,
+7,
+14,
+18,
+21,
+22,
+26,
+30,
+42,
+47,
+57,
+60,
+75,
+78,
+80
+]
+},
+{
+"id": "dat.lehmann2018::stored yi/vi",
+"rep": 3,
+"k": 81,
+"exclude": [
+10,
+14,
+18,
+27,
+33,
+36,
+37,
+38,
+44,
+46,
+53,
+56,
+61,
+62,
+68,
+80
+]
+},
+{
+"id": "dat.li2007::OR",
+"rep": 1,
+"k": 22,
+"exclude": [
+3,
+4,
+7,
+15
+]
+},
+{
+"id": "dat.li2007::OR",
+"rep": 2,
+"k": 22,
+"exclude": [
+5,
+10,
+12,
+19
+]
+},
+{
+"id": "dat.li2007::OR",
+"rep": 3,
+"k": 22,
+"exclude": [
+2,
+11,
+16,
+19
+]
+},
+{
+"id": "dat.lim2014::ZCOR",
+"rep": 1,
+"k": 170,
+"exclude": [
+1,
+4,
+19,
+22,
+25,
+29,
+32,
+35,
+45,
+55,
+56,
+72,
+83,
+84,
+86,
+94,
+104,
+112,
+115,
+118,
+122,
+129,
+132,
+135,
+136,
+137,
+138,
+141,
+144,
+150,
+151,
+152,
+161,
+167
+]
+},
+{
+"id": "dat.lim2014::ZCOR",
+"rep": 2,
+"k": 170,
+"exclude": [
+3,
+9,
+13,
+15,
+25,
+31,
+34,
+37,
+38,
+41,
+47,
+48,
+50,
+54,
+63,
+65,
+67,
+70,
+75,
+78,
+79,
+85,
+87,
+92,
+109,
+111,
+112,
+118,
+120,
+121,
+124,
+126,
+137,
+155
+]
+},
+{
+"id": "dat.lim2014::ZCOR",
+"rep": 3,
+"k": 170,
+"exclude": [
+3,
+4,
+11,
+12,
+20,
+25,
+34,
+43,
+44,
+45,
+47,
+52,
+53,
+58,
+59,
+63,
+69,
+71,
+72,
+82,
+87,
+91,
+99,
+111,
+112,
+125,
+128,
+154,
+155,
+156,
+159,
+165,
+166,
+167
+]
+},
+{
+"id": "dat.linde2005::RR",
+"rep": 1,
+"k": 23,
+"exclude": [
+12,
+14,
+20,
+22
+]
+},
+{
+"id": "dat.linde2005::RR",
+"rep": 2,
+"k": 23,
+"exclude": [
+7,
+13,
+20,
+21
+]
+},
+{
+"id": "dat.linde2005::RR",
+"rep": 3,
+"k": 23,
+"exclude": [
+1,
+3,
+4,
+14
+]
+},
+{
+"id": "dat.linde2015::RR response arms 1-2",
+"rep": 1,
+"k": 59,
+"exclude": [
+4,
+18,
+20,
+21,
+28,
+32,
+34,
+38,
+43,
+45,
+50
+]
+},
+{
+"id": "dat.linde2015::RR response arms 1-2",
+"rep": 2,
+"k": 59,
+"exclude": [
+9,
+13,
+17,
+21,
+24,
+25,
+32,
+34,
+36,
+46,
+57
+]
+},
+{
+"id": "dat.linde2015::RR response arms 1-2",
+"rep": 3,
+"k": 59,
+"exclude": [
+10,
+11,
+22,
+27,
+30,
+34,
+35,
+40,
+44,
+48,
+50
+]
+},
+{
+"id": "dat.linde2016::PLO arm-level",
+"rep": 1,
+"k": 201,
+"exclude": [
+11,
+13,
+21,
+24,
+28,
+39,
+41,
+42,
+45,
+47,
+50,
+54,
+61,
+67,
+70,
+83,
+84,
+89,
+90,
+92,
+103,
+107,
+109,
+117,
+118,
+124,
+128,
+130,
+133,
+135,
+137,
+143,
+148,
+155,
+165,
+166,
+173,
+186,
+188,
+196
+]
+},
+{
+"id": "dat.linde2016::PLO arm-level",
+"rep": 2,
+"k": 201,
+"exclude": [
+2,
+4,
+10,
+12,
+25,
+28,
+29,
+32,
+35,
+39,
+42,
+44,
+49,
+53,
+67,
+68,
+70,
+74,
+83,
+92,
+102,
+105,
+117,
+122,
+126,
+129,
+131,
+136,
+143,
+147,
+148,
+154,
+159,
+165,
+166,
+167,
+173,
+174,
+179,
+181
+]
+},
+{
+"id": "dat.linde2016::PLO arm-level",
+"rep": 3,
+"k": 201,
+"exclude": [
+10,
+12,
+13,
+15,
+21,
+22,
+26,
+34,
+44,
+49,
+51,
+54,
+60,
+69,
+70,
+72,
+77,
+80,
+85,
+86,
+94,
+96,
+100,
+103,
+105,
+106,
+107,
+110,
+119,
+129,
+138,
+155,
+159,
+166,
+167,
+172,
+177,
+185,
+187,
+195
+]
+},
+{
+"id": "dat.lloyd2010::MD das",
+"rep": 1,
+"k": 13,
+"exclude": [
+4,
+5
+]
+},
+{
+"id": "dat.lloyd2010::MD das",
+"rep": 2,
+"k": 13,
+"exclude": [
+1,
+4
+]
+},
+{
+"id": "dat.lloyd2010::MD das",
+"rep": 3,
+"k": 13,
+"exclude": [
+0,
+3
+]
+},
+{
+"id": "dat.lloyd2010::MD haq",
+"rep": 1,
+"k": 8,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.lloyd2010::MD haq",
+"rep": 2,
+"k": 8,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.lloyd2010::MD haq",
+"rep": 3,
+"k": 8,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.lopez2019::stored yi/vi",
+"rep": 1,
+"k": 96,
+"exclude": [
+0,
+1,
+3,
+9,
+14,
+15,
+18,
+24,
+27,
+31,
+41,
+43,
+56,
+57,
+66,
+73,
+74,
+78,
+80
+]
+},
+{
+"id": "dat.lopez2019::stored yi/vi",
+"rep": 2,
+"k": 96,
+"exclude": [
+6,
+12,
+16,
+18,
+31,
+35,
+36,
+45,
+46,
+49,
+50,
+52,
+57,
+69,
+70,
+72,
+86,
+88,
+90
+]
+},
+{
+"id": "dat.lopez2019::stored yi/vi",
+"rep": 3,
+"k": 96,
+"exclude": [
+3,
+5,
+7,
+8,
+11,
+16,
+22,
+26,
+34,
+39,
+52,
+55,
+57,
+60,
+69,
+77,
+83,
+85,
+86
+]
+},
+{
+"id": "dat.maire2019::Mann-Kendall s1 stored",
+"rep": 1,
+"k": 35,
+"exclude": [
+8,
+12,
+13,
+19,
+20,
+23,
+30
+]
+},
+{
+"id": "dat.maire2019::Mann-Kendall s1 stored",
+"rep": 2,
+"k": 35,
+"exclude": [
+5,
+7,
+8,
+14,
+15,
+18,
+25
+]
+},
+{
+"id": "dat.maire2019::Mann-Kendall s1 stored",
+"rep": 3,
+"k": 35,
+"exclude": [
+2,
+11,
+16,
+19,
+27,
+29,
+31
+]
+},
+{
+"id": "dat.mcdaniel1994::COR",
+"rep": 1,
+"k": 160,
+"exclude": [
+1,
+7,
+12,
+15,
+23,
+26,
+34,
+35,
+40,
+41,
+45,
+50,
+52,
+72,
+74,
+75,
+76,
+81,
+87,
+92,
+98,
+101,
+103,
+122,
+124,
+125,
+126,
+142,
+144,
+148,
+149,
+158
+]
+},
+{
+"id": "dat.mcdaniel1994::COR",
+"rep": 2,
+"k": 160,
+"exclude": [
+9,
+12,
+17,
+18,
+19,
+23,
+27,
+37,
+52,
+56,
+59,
+63,
+64,
+74,
+75,
+76,
+77,
+78,
+79,
+97,
+109,
+114,
+121,
+126,
+132,
+135,
+140,
+143,
+146,
+149,
+153,
+157
+]
+},
+{
+"id": "dat.mcdaniel1994::COR",
+"rep": 3,
+"k": 160,
+"exclude": [
+6,
+11,
+15,
+24,
+29,
+39,
+43,
+44,
+45,
+52,
+53,
+60,
+61,
+70,
+71,
+73,
+77,
+84,
+85,
+92,
+99,
+104,
+105,
+113,
+119,
+125,
+127,
+133,
+137,
+141,
+148,
+149
+]
+},
+{
+"id": "dat.mcdaniel1994::ZCOR",
+"rep": 1,
+"k": 160,
+"exclude": [
+0,
+2,
+3,
+12,
+13,
+21,
+30,
+33,
+41,
+43,
+49,
+54,
+66,
+67,
+77,
+79,
+81,
+82,
+98,
+103,
+104,
+108,
+112,
+114,
+117,
+118,
+120,
+124,
+136,
+139,
+149,
+159
+]
+},
+{
+"id": "dat.mcdaniel1994::ZCOR",
+"rep": 2,
+"k": 160,
+"exclude": [
+7,
+18,
+20,
+26,
+29,
+32,
+34,
+39,
+40,
+48,
+50,
+57,
+63,
+66,
+68,
+74,
+78,
+84,
+86,
+91,
+92,
+94,
+96,
+97,
+102,
+109,
+123,
+126,
+132,
+133,
+143,
+146
+]
+},
+{
+"id": "dat.mcdaniel1994::ZCOR",
+"rep": 3,
+"k": 160,
+"exclude": [
+2,
+3,
+7,
+18,
+19,
+21,
+23,
+28,
+30,
+31,
+32,
+37,
+41,
+43,
+45,
+46,
+48,
+54,
+55,
+65,
+80,
+83,
+84,
+103,
+107,
+120,
+121,
+137,
+143,
+150,
+156,
+158
+]
+},
+{
+"id": "dat.meeker2017::GEN",
+"rep": 1,
+"k": 10,
+"exclude": [
+0,
+1
+]
+},
+{
+"id": "dat.meeker2017::GEN",
+"rep": 2,
+"k": 10,
+"exclude": [
+7,
+9
+]
+},
+{
+"id": "dat.meeker2017::GEN",
+"rep": 3,
+"k": 10,
+"exclude": [
+1,
+7
+]
+},
+{
+"id": "dat.michael2013::MD",
+"rep": 1,
+"k": 12,
+"exclude": [
+0,
+10
+]
+},
+{
+"id": "dat.michael2013::MD",
+"rep": 2,
+"k": 12,
+"exclude": [
+6,
+10
+]
+},
+{
+"id": "dat.michael2013::MD",
+"rep": 3,
+"k": 12,
+"exclude": [
+7,
+10
+]
+},
+{
+"id": "dat.michael2013::stored yi/vi",
+"rep": 1,
+"k": 12,
+"exclude": [
+3,
+6
+]
+},
+{
+"id": "dat.michael2013::stored yi/vi",
+"rep": 2,
+"k": 12,
+"exclude": [
+3,
+9
+]
+},
+{
+"id": "dat.michael2013::stored yi/vi",
+"rep": 3,
+"k": 12,
+"exclude": [
+1,
+9
+]
+},
+{
+"id": "dat.molloy2014::ZCOR",
+"rep": 1,
+"k": 16,
+"exclude": [
+3,
+6,
+11
+]
+},
+{
+"id": "dat.molloy2014::ZCOR",
+"rep": 2,
+"k": 16,
+"exclude": [
+6,
+14,
+15
+]
+},
+{
+"id": "dat.molloy2014::ZCOR",
+"rep": 3,
+"k": 16,
+"exclude": [
+5,
+6,
+9
+]
+},
+{
+"id": "dat.moore1998::RR",
+"rep": 1,
+"k": 37,
+"exclude": [
+1,
+6,
+13,
+15,
+19,
+20,
+30
+]
+},
+{
+"id": "dat.moore1998::RR",
+"rep": 2,
+"k": 37,
+"exclude": [
+2,
+3,
+10,
+19,
+23,
+26,
+35
+]
+},
+{
+"id": "dat.moore1998::RR",
+"rep": 3,
+"k": 37,
+"exclude": [
+5,
+11,
+14,
+17,
+30,
+32,
+35
+]
+},
+{
+"id": "dat.nakagawa2007::ZCOR",
+"rep": 1,
+"k": 15,
+"exclude": [
+0,
+4,
+13
+]
+},
+{
+"id": "dat.nakagawa2007::ZCOR",
+"rep": 2,
+"k": 15,
+"exclude": [
+1,
+6,
+8
+]
+},
+{
+"id": "dat.nakagawa2007::ZCOR",
+"rep": 3,
+"k": 15,
+"exclude": [
+1,
+3,
+12
+]
+},
+{
+"id": "dat.nielweise2007::OR",
+"rep": 1,
+"k": 17,
+"exclude": [
+3,
+5,
+7
+]
+},
+{
+"id": "dat.nielweise2007::OR",
+"rep": 2,
+"k": 17,
+"exclude": [
+0,
+8,
+16
+]
+},
+{
+"id": "dat.nielweise2007::OR",
+"rep": 3,
+"k": 17,
+"exclude": [
+10,
+11,
+13
+]
+},
+{
+"id": "dat.nielweise2008::IRR",
+"rep": 1,
+"k": 9,
+"exclude": [
+6
+]
+},
+{
+"id": "dat.nielweise2008::IRR",
+"rep": 2,
+"k": 9,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.nielweise2008::IRR",
+"rep": 3,
+"k": 9,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.nissen2007::OR",
+"rep": 1,
+"k": 38,
+"exclude": [
+1,
+8,
+9,
+15,
+20,
+25,
+32
+]
+},
+{
+"id": "dat.nissen2007::OR",
+"rep": 2,
+"k": 38,
+"exclude": [
+9,
+12,
+19,
+22,
+33,
+34,
+35
+]
+},
+{
+"id": "dat.nissen2007::OR",
+"rep": 3,
+"k": 38,
+"exclude": [
+0,
+1,
+8,
+13,
+25,
+28,
+33
+]
+},
+{
+"id": "dat.normand1999::MD",
+"rep": 1,
+"k": 9,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.normand1999::MD",
+"rep": 2,
+"k": 9,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.normand1999::MD",
+"rep": 3,
+"k": 9,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.normand1999::ROM",
+"rep": 1,
+"k": 9,
+"exclude": [
+4
+]
+},
+{
+"id": "dat.normand1999::ROM",
+"rep": 2,
+"k": 9,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.normand1999::ROM",
+"rep": 3,
+"k": 9,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.normand1999::SMD",
+"rep": 1,
+"k": 9,
+"exclude": [
+7
+]
+},
+{
+"id": "dat.normand1999::SMD",
+"rep": 2,
+"k": 9,
+"exclude": [
+8
+]
+},
+{
+"id": "dat.normand1999::SMD",
+"rep": 3,
+"k": 9,
+"exclude": [
+3
+]
+},
+{
+"id": "dat.obrien2003::PR",
+"rep": 1,
+"k": 43,
+"exclude": [
+2,
+4,
+10,
+21,
+26,
+29,
+36,
+40
+]
+},
+{
+"id": "dat.obrien2003::PR",
+"rep": 2,
+"k": 43,
+"exclude": [
+2,
+5,
+10,
+11,
+17,
+26,
+30,
+32
+]
+},
+{
+"id": "dat.obrien2003::PR",
+"rep": 3,
+"k": 43,
+"exclude": [
+0,
+4,
+5,
+6,
+9,
+17,
+27,
+31
+]
+},
+{
+"id": "dat.obrien2003::RR",
+"rep": 1,
+"k": 30,
+"exclude": [
+4,
+6,
+21,
+22,
+25,
+26
+]
+},
+{
+"id": "dat.obrien2003::RR",
+"rep": 2,
+"k": 30,
+"exclude": [
+3,
+7,
+12,
+19,
+22,
+23
+]
+},
+{
+"id": "dat.obrien2003::RR",
+"rep": 3,
+"k": 30,
+"exclude": [
+12,
+18,
+22,
+23,
+25,
+27
+]
+},
+{
+"id": "dat.pagliaro1992::PLO",
+"rep": 1,
+"k": 54,
+"exclude": [
+7,
+8,
+10,
+18,
+30,
+34,
+40,
+44,
+47,
+49
+]
+},
+{
+"id": "dat.pagliaro1992::PLO",
+"rep": 2,
+"k": 54,
+"exclude": [
+2,
+8,
+19,
+21,
+23,
+25,
+26,
+35,
+48,
+51
+]
+},
+{
+"id": "dat.pagliaro1992::PLO",
+"rep": 3,
+"k": 54,
+"exclude": [
+4,
+15,
+27,
+30,
+32,
+39,
+40,
+42,
+48,
+50
+]
+},
+{
+"id": "dat.pignon2000::stored yi/vi",
+"rep": 1,
+"k": 65,
+"exclude": [
+3,
+4,
+11,
+12,
+13,
+18,
+25,
+27,
+37,
+38,
+57,
+59,
+61
+]
+},
+{
+"id": "dat.pignon2000::stored yi/vi",
+"rep": 2,
+"k": 65,
+"exclude": [
+2,
+3,
+7,
+10,
+16,
+18,
+21,
+23,
+36,
+40,
+43,
+47,
+51
+]
+},
+{
+"id": "dat.pignon2000::stored yi/vi",
+"rep": 3,
+"k": 65,
+"exclude": [
+5,
+6,
+8,
+9,
+11,
+14,
+26,
+27,
+33,
+34,
+39,
+45,
+54
+]
+},
+{
+"id": "dat.poole2003::MD",
+"rep": 1,
+"k": 17,
+"exclude": [
+4,
+10,
+14
+]
+},
+{
+"id": "dat.poole2003::MD",
+"rep": 2,
+"k": 17,
+"exclude": [
+12,
+13,
+16
+]
+},
+{
+"id": "dat.poole2003::MD",
+"rep": 3,
+"k": 17,
+"exclude": [
+5,
+9,
+10
+]
+},
+{
+"id": "dat.pritz1997::PLO",
+"rep": 1,
+"k": 14,
+"exclude": [
+1,
+11
+]
+},
+{
+"id": "dat.pritz1997::PLO",
+"rep": 2,
+"k": 14,
+"exclude": [
+0,
+2
+]
+},
+{
+"id": "dat.pritz1997::PLO",
+"rep": 3,
+"k": 14,
+"exclude": [
+5,
+7
+]
+},
+{
+"id": "dat.pritz1997::PR",
+"rep": 1,
+"k": 14,
+"exclude": [
+5,
+12
+]
+},
+{
+"id": "dat.pritz1997::PR",
+"rep": 2,
+"k": 14,
+"exclude": [
+2,
+8
+]
+},
+{
+"id": "dat.pritz1997::PR",
+"rep": 3,
+"k": 14,
+"exclude": [
+2,
+9
+]
+},
+{
+"id": "dat.quan2000::RR",
+"rep": 1,
+"k": 11,
+"exclude": [
+0,
+4
+]
+},
+{
+"id": "dat.quan2000::RR",
+"rep": 2,
+"k": 11,
+"exclude": [
+4,
+6
+]
+},
+{
+"id": "dat.quan2000::RR",
+"rep": 3,
+"k": 11,
+"exclude": [
+2,
+9
+]
+},
+{
+"id": "dat.raudenbush1985::SMD",
+"rep": 1,
+"k": 19,
+"exclude": [
+3,
+7,
+17
+]
+},
+{
+"id": "dat.raudenbush1985::SMD",
+"rep": 2,
+"k": 19,
+"exclude": [
+1,
+8,
+11
+]
+},
+{
+"id": "dat.raudenbush1985::SMD",
+"rep": 3,
+"k": 19,
+"exclude": [
+1,
+2,
+12
+]
+},
+{
+"id": "dat.riley2003::GEN",
+"rep": 1,
+"k": 98,
+"exclude": [
+7,
+11,
+12,
+18,
+21,
+28,
+30,
+33,
+37,
+39,
+41,
+48,
+52,
+57,
+65,
+68,
+71,
+86,
+92
+]
+},
+{
+"id": "dat.riley2003::GEN",
+"rep": 2,
+"k": 98,
+"exclude": [
+5,
+13,
+23,
+26,
+28,
+30,
+49,
+53,
+54,
+58,
+59,
+62,
+64,
+73,
+78,
+82,
+83,
+91,
+93
+]
+},
+{
+"id": "dat.riley2003::GEN",
+"rep": 3,
+"k": 98,
+"exclude": [
+4,
+12,
+13,
+18,
+25,
+35,
+47,
+49,
+50,
+54,
+60,
+62,
+67,
+71,
+72,
+75,
+80,
+86,
+93
+]
+},
+{
+"id": "dat.rivera2025::log diagnostic OR",
+"rep": 1,
+"k": 10,
+"exclude": [
+3,
+7
+]
+},
+{
+"id": "dat.rivera2025::log diagnostic OR",
+"rep": 2,
+"k": 10,
+"exclude": [
+1,
+6
+]
+},
+{
+"id": "dat.rivera2025::log diagnostic OR",
+"rep": 3,
+"k": 10,
+"exclude": [
+4,
+7
+]
+},
+{
+"id": "dat.roever2022::PLO arm-level",
+"rep": 1,
+"k": 37,
+"exclude": [
+0,
+1,
+3,
+12,
+19,
+31,
+33
+]
+},
+{
+"id": "dat.roever2022::PLO arm-level",
+"rep": 2,
+"k": 37,
+"exclude": [
+2,
+4,
+18,
+21,
+24,
+31,
+35
+]
+},
+{
+"id": "dat.roever2022::PLO arm-level",
+"rep": 3,
+"k": 37,
+"exclude": [
+17,
+27,
+28,
+30,
+32,
+35,
+36
+]
+},
+{
+"id": "dat.senn2013::MD",
+"rep": 1,
+"k": 27,
+"exclude": [
+10,
+15,
+16,
+21,
+23
+]
+},
+{
+"id": "dat.senn2013::MD",
+"rep": 2,
+"k": 27,
+"exclude": [
+2,
+7,
+8,
+17,
+25
+]
+},
+{
+"id": "dat.senn2013::MD",
+"rep": 3,
+"k": 27,
+"exclude": [
+0,
+4,
+17,
+22,
+26
+]
+},
+{
+"id": "dat.senn2013::MN",
+"rep": 1,
+"k": 53,
+"exclude": [
+0,
+6,
+9,
+18,
+22,
+42,
+44,
+47,
+50,
+52
+]
+},
+{
+"id": "dat.senn2013::MN",
+"rep": 2,
+"k": 53,
+"exclude": [
+16,
+20,
+23,
+30,
+32,
+33,
+34,
+37,
+39,
+46
+]
+},
+{
+"id": "dat.senn2013::MN",
+"rep": 3,
+"k": 53,
+"exclude": [
+8,
+11,
+16,
+19,
+36,
+44,
+45,
+48,
+50,
+51
+]
+},
+{
+"id": "dat.spooner2002::MD",
+"rep": 1,
+"k": 17,
+"exclude": [
+2,
+3,
+15
+]
+},
+{
+"id": "dat.spooner2002::MD",
+"rep": 2,
+"k": 17,
+"exclude": [
+5,
+7,
+14
+]
+},
+{
+"id": "dat.spooner2002::MD",
+"rep": 3,
+"k": 17,
+"exclude": [
+6,
+14,
+16
+]
+},
+{
+"id": "dat.steurer2006::logHR stored",
+"rep": 1,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.steurer2006::logHR stored",
+"rep": 2,
+"k": 4,
+"exclude": [
+0
+]
+},
+{
+"id": "dat.steurer2006::logHR stored",
+"rep": 3,
+"k": 4,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.stowe2010::MD arms 1-2",
+"rep": 1,
+"k": 29,
+"exclude": [
+6,
+12,
+15,
+19,
+23
+]
+},
+{
+"id": "dat.stowe2010::MD arms 1-2",
+"rep": 2,
+"k": 29,
+"exclude": [
+3,
+13,
+22,
+26,
+28
+]
+},
+{
+"id": "dat.stowe2010::MD arms 1-2",
+"rep": 3,
+"k": 29,
+"exclude": [
+0,
+1,
+16,
+17,
+22
+]
+},
+{
+"id": "dat.tannersmith2016::stored yi/vi",
+"rep": 1,
+"k": 113,
+"exclude": [
+2,
+17,
+18,
+21,
+22,
+24,
+25,
+40,
+43,
+46,
+51,
+54,
+59,
+61,
+69,
+70,
+72,
+77,
+79,
+80,
+86,
+100
+]
+},
+{
+"id": "dat.tannersmith2016::stored yi/vi",
+"rep": 2,
+"k": 113,
+"exclude": [
+5,
+6,
+11,
+18,
+21,
+27,
+30,
+31,
+32,
+34,
+42,
+43,
+44,
+51,
+56,
+57,
+59,
+61,
+76,
+86,
+87,
+110
+]
+},
+{
+"id": "dat.tannersmith2016::stored yi/vi",
+"rep": 3,
+"k": 113,
+"exclude": [
+5,
+15,
+18,
+19,
+25,
+37,
+44,
+46,
+48,
+50,
+52,
+54,
+57,
+58,
+62,
+66,
+86,
+87,
+89,
+93,
+96,
+111
+]
+},
+{
+"id": "dat.thompson1999::logOR stored",
+"rep": 1,
+"k": 28,
+"exclude": [
+2,
+3,
+9,
+20,
+24
+]
+},
+{
+"id": "dat.thompson1999::logOR stored",
+"rep": 2,
+"k": 28,
+"exclude": [
+13,
+16,
+18,
+22,
+27
+]
+},
+{
+"id": "dat.thompson1999::logOR stored",
+"rep": 3,
+"k": 28,
+"exclude": [
+7,
+10,
+12,
+16,
+22
+]
+},
+{
+"id": "dat.tian2009::PLO arm-level",
+"rep": 1,
+"k": 96,
+"exclude": [
+1,
+2,
+6,
+10,
+21,
+33,
+36,
+47,
+53,
+54,
+64,
+65,
+66,
+73,
+75,
+77,
+85,
+87,
+93
+]
+},
+{
+"id": "dat.tian2009::PLO arm-level",
+"rep": 2,
+"k": 96,
+"exclude": [
+1,
+5,
+6,
+23,
+25,
+32,
+38,
+39,
+40,
+53,
+59,
+65,
+68,
+72,
+74,
+77,
+82,
+89,
+92
+]
+},
+{
+"id": "dat.tian2009::PLO arm-level",
+"rep": 3,
+"k": 96,
+"exclude": [
+7,
+9,
+14,
+15,
+28,
+31,
+34,
+37,
+43,
+44,
+60,
+61,
+63,
+68,
+69,
+75,
+79,
+85,
+94
+]
+},
+{
+"id": "dat.ursino2021::PLO arm-level",
+"rep": 1,
+"k": 49,
+"exclude": [
+1,
+12,
+16,
+22,
+24,
+28,
+34,
+41,
+47
+]
+},
+{
+"id": "dat.ursino2021::PLO arm-level",
+"rep": 2,
+"k": 49,
+"exclude": [
+1,
+3,
+6,
+11,
+13,
+29,
+32,
+41,
+43
+]
+},
+{
+"id": "dat.ursino2021::PLO arm-level",
+"rep": 3,
+"k": 49,
+"exclude": [
+7,
+13,
+18,
+22,
+27,
+30,
+33,
+36,
+40
+]
+},
+{
+"id": "dat.vanhowe1999::OR",
+"rep": 1,
+"k": 33,
+"exclude": [
+3,
+8,
+9,
+15,
+18,
+20
+]
+},
+{
+"id": "dat.vanhowe1999::OR",
+"rep": 2,
+"k": 33,
+"exclude": [
+1,
+2,
+5,
+10,
+20,
+27
+]
+},
+{
+"id": "dat.vanhowe1999::OR",
+"rep": 3,
+"k": 33,
+"exclude": [
+0,
+1,
+7,
+9,
+28,
+30
+]
+},
+{
+"id": "dat.viechtbauer2021::OR",
+"rep": 1,
+"k": 20,
+"exclude": [
+5,
+6,
+7,
+13
+]
+},
+{
+"id": "dat.viechtbauer2021::OR",
+"rep": 2,
+"k": 20,
+"exclude": [
+5,
+9,
+11,
+15
+]
+},
+{
+"id": "dat.viechtbauer2021::OR",
+"rep": 3,
+"k": 20,
+"exclude": [
+1,
+5,
+9,
+12
+]
+},
+{
+"id": "dat.white2020::ZCOR",
+"rep": 1,
+"k": 186,
+"exclude": [
+0,
+9,
+11,
+12,
+16,
+19,
+21,
+23,
+25,
+26,
+31,
+38,
+40,
+53,
+56,
+57,
+64,
+73,
+85,
+95,
+99,
+100,
+101,
+119,
+135,
+136,
+139,
+140,
+151,
+153,
+156,
+166,
+168,
+175,
+177,
+182,
+183
+]
+},
+{
+"id": "dat.white2020::ZCOR",
+"rep": 2,
+"k": 186,
+"exclude": [
+5,
+7,
+14,
+16,
+17,
+23,
+26,
+35,
+47,
+49,
+53,
+55,
+60,
+63,
+67,
+71,
+85,
+86,
+94,
+102,
+105,
+110,
+111,
+112,
+114,
+116,
+119,
+124,
+158,
+164,
+167,
+170,
+171,
+172,
+173,
+180,
+183
+]
+},
+{
+"id": "dat.white2020::ZCOR",
+"rep": 3,
+"k": 186,
+"exclude": [
+2,
+10,
+15,
+19,
+31,
+32,
+38,
+44,
+53,
+60,
+68,
+73,
+74,
+83,
+86,
+88,
+110,
+111,
+113,
+116,
+120,
+124,
+125,
+132,
+133,
+146,
+148,
+152,
+153,
+155,
+162,
+165,
+168,
+174,
+175,
+181,
+184
+]
+},
+{
+"id": "dat.woods2010::PLO arm-level",
+"rep": 1,
+"k": 8,
+"exclude": [
+2
+]
+},
+{
+"id": "dat.woods2010::PLO arm-level",
+"rep": 2,
+"k": 8,
+"exclude": [
+5
+]
+},
+{
+"id": "dat.woods2010::PLO arm-level",
+"rep": 3,
+"k": 8,
+"exclude": [
+1
+]
+},
+{
+"id": "dat.yusuf1985::RR",
+"rep": 1,
+"k": 118,
+"exclude": [
+1,
+11,
+20,
+21,
+24,
+25,
+28,
+47,
+58,
+61,
+68,
+71,
+75,
+81,
+86,
+88,
+89,
+90,
+99,
+107,
+112,
+116,
+117
+]
+},
+{
+"id": "dat.yusuf1985::RR",
+"rep": 2,
+"k": 118,
+"exclude": [
+0,
+1,
+6,
+17,
+18,
+22,
+27,
+30,
+32,
+33,
+47,
+54,
+68,
+70,
+75,
+92,
+93,
+96,
+97,
+101,
+110,
+114,
+117
+]
+},
+{
+"id": "dat.yusuf1985::RR",
+"rep": 3,
+"k": 118,
+"exclude": [
+0,
+8,
+21,
+22,
+23,
+24,
+36,
+39,
+50,
+51,
+52,
+61,
+71,
+75,
+78,
+82,
+87,
+97,
+98,
+106,
+112,
+113,
+116
+]
+}
+],
+"E3": [
+"dat.franchini2012::MD arms 1-2",
+"dat.rivera2025::log diagnostic OR",
+"dat.cannon2006::OR endpoint6",
+"dat.bonett2010::AHW",
+"dat.anker2025::GEN",
+"dat.cannon2006::OR endpoint3",
+"dat.cannon2006::OR endpoint2",
+"dat.normand1999::MD",
+"dat.aloe2013::PCOR",
+"dat.woods2010::PLO arm-level",
+"dat.dorn2007::RR",
+"dat.colditz1994::RR",
+"dat.damico2009::OR",
+"dat.ursino2021::PLO arm-level",
+"dat.furukawa2003::SMD",
+"dat.linde2005::RR",
+"dat.michael2013::stored yi/vi",
+"dat.pritz1997::PLO",
+"dat.maire2019::Mann-Kendall s1 stored",
+"dat.li2007::OR",
+"dat.craft2003::COR",
+"dat.hartmannboyce2018::RR",
+"dat.dagostino1998::OR",
+"dat.knapp2017::stored yi/vi",
+"dat.besson2016::SMD",
+"dat.yusuf1985::RR",
+"dat.landenberger2005::OR",
+"dat.ishak2007::stored yi/vi",
+"dat.assink2016::SMD",
+"dat.pignon2000::stored yi/vi",
+"dat.bcg::RR"
+]
+}

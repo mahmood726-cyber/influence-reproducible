@@ -1,0 +1,11 @@
+--- infup/tools/e1_compare.py
++++ v2/tools/e1_compare.py
+@@ -4,7 +4,7 @@
+ Usage: python e1_compare.py app.json refits.jsonl sets.json label [--plant]"""
+ import json, sys, copy
+ from pathlib import Path
+-ARCH = Path(r"C:\mh-lanes\p10-11-15\influence-reproducible")
++ARCH = Path(__file__).resolve().parents[2]
+ app = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+ ref = json.loads((ARCH / "results" / "reference.json").read_text(encoding="utf-8"))
+ corpus = json.loads((ARCH / "data" / "corpus.json").read_text(encoding="utf-8"))

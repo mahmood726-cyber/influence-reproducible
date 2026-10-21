@@ -1,0 +1,16 @@
+Note: the removed line held a hard-coded local package library. Its path is shown here as
+<R_LIBS_USER>, following the placeholder convention of bench/README.md; no machine path is distributed.
+--- infup/e1/refit.R
++++ v2/e1/refit.R
+@@ -1,8 +1,9 @@
+ # E1 exclusion re-fits under the archive REML policy. Usage: Rscript refit.R corpus.json sets.json out.jsonl
+-.libPaths(c("<R_LIBS_USER>", .libPaths()))
++source("v2/pins.R")
++v2_versions()
+ suppressMessages({library(metafor); library(jsonlite)})
+ a <- commandArgs(TRUE)
+-source("starts.R")
++source("v2/e1/starts.R")
+ corpus <- fromJSON(a[1], simplifyVector = TRUE); sets <- fromJSON(a[2], simplifyVector = FALSE)
+ out <- a[3]
+ env <- list(R = R.version.string, metafor = as.character(packageVersion("metafor")), jsonlite = as.character(packageVersion("jsonlite")))

@@ -1,0 +1,43 @@
+
+Random-Effects Model (k = 5; tau^2 estimator: REML)
+
+tau^2 (estimated amount of total heterogeneity): 0.0298 (SE = 0.0237)
+tau (square root of estimated tau^2 value):      0.1725
+I^2 (total heterogeneity / total variability):   88.91%
+H^2 (total variability / sampling variability):  9.01
+
+Test for Heterogeneity:
+Q(df = 4) = 40.1986, p-val < .0001
+
+Model Results:
+
+estimate      se    zval    pval   ci.lb   ci.ub    
+  0.2048  0.0820  2.4993  0.0124  0.0442  0.3655  * 
+
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+
+      estimate     se   zval   pval   ci.lb  ci.ub       Q     Qp   tau2 
+-row1   0.1812 0.1007 1.7987 0.0721 -0.0162 0.3786 36.1949 0.0000 0.0367 
+-row2   0.1592 0.0882 1.8051 0.0711 -0.0137 0.3321 25.3540 0.0000 0.0271 
+-row3   0.1786 0.0988 1.8086 0.0705 -0.0149 0.3722 36.7391 0.0000 0.0356 
+-row4   0.2691 0.0679 3.9628 0.0001  0.1360 0.4021 13.9814 0.0029 0.0143 
+-row5   0.2375 0.0971 2.4474 0.0144  0.0473 0.4278 36.2117 0.0000 0.0339 
+           I2      H2 
+-row1 90.8673 10.9497 
+-row2 87.5228  8.0146 
+-row3 91.2172 11.3859 
+-row4 77.9927  4.5439 
+-row5 90.2790 10.2870 
+
+
+     rstudent  dffits cook.d  cov.r tau2.del  QE.del    hat  weight    dfbs inf 
+row1   0.5328  0.2628 0.0834 1.5103   0.0367 36.1949 0.1998 19.9842  0.2628     
+row2   1.1414  0.5801 0.3098 1.1583   0.0271 25.3540 0.2036 20.3613  0.5796     
+row3   0.6114  0.2963 0.1023 1.4521   0.0356 36.7391 0.1911 19.1110  0.2953     
+row4  -2.1016 -1.0807 0.6138 0.6862   0.0143 13.9814 0.2067 20.6715 -1.0658   * 
+row5  -0.7505 -0.3764 0.1590 1.4022   0.0339 36.2117 0.1987 19.8720 -0.3762     
+
+metafor 5.2.1, R version 4.6.0 (2026-04-24 ucrt)
+ALL 107/107 app values reproduced

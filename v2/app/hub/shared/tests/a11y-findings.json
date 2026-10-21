@@ -1,0 +1,776 @@
+{
+  "generated": "2026-06-04T08:33:31.131Z",
+  "appsScanned": 76,
+  "appsFailedToLoad": [],
+  "totalViolationInstances": 38,
+  "rankedRules": [
+    {
+      "id": "scrollable-region-focusable",
+      "impact": "serious",
+      "apps": 3,
+      "nodes": 4,
+      "help": "Scrollable region must have keyboard access",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright"
+    },
+    {
+      "id": "color-contrast",
+      "impact": "serious",
+      "apps": 2,
+      "nodes": 9,
+      "help": "Elements must meet minimum color contrast ratio thresholds",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright"
+    },
+    {
+      "id": "nested-interactive",
+      "impact": "serious",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Interactive controls must not be nested",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/nested-interactive?application=playwright"
+    },
+    {
+      "id": "label-title-only",
+      "impact": "serious",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Form elements should have a visible label",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/label-title-only?application=playwright"
+    },
+    {
+      "id": "region",
+      "impact": "moderate",
+      "apps": 19,
+      "nodes": 48,
+      "help": "All page content should be contained by landmarks",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright"
+    },
+    {
+      "id": "skip-link",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "The skip-link target should exist and be focusable",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/skip-link?application=playwright"
+    },
+    {
+      "id": "heading-order",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Heading levels should only increase by one",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=playwright"
+    },
+    {
+      "id": "landmark-banner-is-top-level",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Banner landmark should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-banner-is-top-level?application=playwright"
+    },
+    {
+      "id": "landmark-contentinfo-is-top-level",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Contentinfo landmark should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-contentinfo-is-top-level?application=playwright"
+    },
+    {
+      "id": "landmark-main-is-top-level",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Main landmark should not be contained in another landmark",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-main-is-top-level?application=playwright"
+    },
+    {
+      "id": "page-has-heading-one",
+      "impact": "moderate",
+      "apps": 1,
+      "nodes": 1,
+      "help": "Page should contain a level-one heading",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=playwright"
+    },
+    {
+      "id": "empty-table-header",
+      "impact": "minor",
+      "apps": 6,
+      "nodes": 6,
+      "help": "Table header text should not be empty",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright"
+    }
+  ],
+  "perApp": {
+    "HTA": {
+      "ok": true,
+      "count": 3,
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "help": "Interactive controls must not be nested",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/nested-interactive?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 9
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+          "nodes": 2
+        }
+      ]
+    },
+    "IPD-Meta-Pro": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "Pairwiseai": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "Truthcert1": {
+      "ok": true,
+      "count": 2,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "skip-link",
+          "impact": "moderate",
+          "help": "The skip-link target should exist and be focusable",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/skip-link?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "amstar-2": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "bayesian-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "bayesian-mcmc": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "bayesian-nma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "bucher": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "cerqual": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "citation-chaser": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "citation-dedup": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "component-nma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "copas": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "correlation-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "courses": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "cumulative-subgroup": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "dosehtml": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "dose-response-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "dta-sroc": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "effect-size-converter": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 2
+        }
+      ]
+    },
+    "evidence-board": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "evidenceos": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "focus-studio": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "forest-plot": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "funnel-plot": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "gosh": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "gosh-metareg": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "grade-sof": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "heterogeneity": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "hsroc": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "influence": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "kanban-lab": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "km-reconstructor": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "limit-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "living-meta": {
+      "ok": true,
+      "count": 5,
+      "violations": [
+        {
+          "id": "heading-order",
+          "impact": "moderate",
+          "help": "Heading levels should only increase by one",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/heading-order?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "landmark-banner-is-top-level",
+          "impact": "moderate",
+          "help": "Banner landmark should not be contained in another landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-banner-is-top-level?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "landmark-contentinfo-is-top-level",
+          "impact": "moderate",
+          "help": "Contentinfo landmark should not be contained in another landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-contentinfo-is-top-level?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "landmark-main-is-top-level",
+          "impact": "moderate",
+          "help": "Main landmark should not be contained in another landmark",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/landmark-main-is-top-level?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 3
+        }
+      ]
+    },
+    "local-ai": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "mcid": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "median-to-mean": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "meta-regression": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "mh-peto": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "multilevel-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "multivariate-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "nma": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "nma-dose-response-app": {
+      "ok": true,
+      "count": 3,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+          "nodes": 7
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 19
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "nma-global-inconsistency": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "nma-inconsistency": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "nma-pro-v2": {
+      "ok": true,
+      "count": 4,
+      "violations": [
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "label-title-only",
+          "impact": "serious",
+          "help": "Form elements should have a visible label",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/label-title-only?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "page-has-heading-one",
+          "impact": "moderate",
+          "help": "Page should contain a level-one heading",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "help": "Scrollable region must have keyboard access",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/scrollable-region-focusable?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "p-curve": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "pet-peese": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "pico": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "powerma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "parity": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "prisma-checklist": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "prisma-flow": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "prisma-nma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "prisma-screen": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "project": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "proportion-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "pubbias-tests": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "quadas-2": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "rct-extractor": {
+      "ok": true,
+      "count": 3,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=playwright",
+          "nodes": 2
+        },
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        },
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "rob-traffic-light": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "rmst-ma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "rob2": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "robma": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "robins-e": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "robins-i": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "search-translator": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "thematic-synthesis": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "empty-table-header",
+          "impact": "minor",
+          "help": "Table header text should not be empty",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/empty-table-header?application=playwright",
+          "nodes": 1
+        }
+      ]
+    },
+    "tsa": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "webr-pilot": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "webr-studio": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "webr-validator": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "workbench": {
+      "ok": true,
+      "count": 0,
+      "violations": []
+    },
+    "workflow": {
+      "ok": true,
+      "count": 1,
+      "violations": [
+        {
+          "id": "region",
+          "impact": "moderate",
+          "help": "All page content should be contained by landmarks",
+          "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/region?application=playwright",
+          "nodes": 1
+        }
+      ]
+    }
+  }
+}

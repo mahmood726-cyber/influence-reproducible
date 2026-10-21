@@ -5,7 +5,7 @@
       "name": "Ahmad, Mahmood"
     }
   ],
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
@@ -19,7 +19,12 @@
       "identifier": "10.5281/zenodo.23288388",
       "relation": "isDerivedFrom",
       "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23515177",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
     }
   ],
-  "description": "Influence diagnostics validation archive: 164802/164802 checks after three fixes; 142 intercept-only REML configurations. See README for scope and before/after denominators."
+  "description": "Influence diagnostics validation archive: 164802/164802 checks after three fixes; 142 intercept-only REML configurations. See README for scope and before/after denominators. Version 1.1.0 adds E1/E2/E3 reproduction with the v2 app snapshot pinned to allmeta v1.8.0 (tag v1.8.0, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, DOI 10.5281/zenodo.23515177, contains PR #170); captures taken at f96772b and re-executed byte-identically on the v1.8.0 bytes, see RELEASE_EQUIVALENCE.md. The v1 primary tier stays scoped to allmeta c6b8912. [ARCHIVE v1.1.0 DOI PENDING]. Local unpublished build."
 }

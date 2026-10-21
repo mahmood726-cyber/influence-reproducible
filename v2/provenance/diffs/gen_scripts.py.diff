@@ -1,0 +1,11 @@
+--- infup/tools/gen_scripts.py
++++ v2/tools/gen_scripts.py
+@@ -4,7 +4,7 @@
+ import json, sys, re, hashlib
+ from pathlib import Path
+ from playwright.sync_api import sync_playwright
+-ARCH = Path(r"C:\mh-lanes\p10-11-15\influence-reproducible")
++ARCH = Path(__file__).resolve().parents[2]
+ root, sets, outdir = Path(sys.argv[1]), json.loads(Path(sys.argv[2]).read_text()), Path(sys.argv[3])
+ outdir.mkdir(parents=True, exist_ok=True)
+ corpus = json.loads((ARCH / "data" / "corpus.json").read_text(encoding="utf-8"))

@@ -5,9 +5,19 @@ type: software
 authors:
   - family-names: Ahmad
     given-names: Mahmood
-version: 1.0.0
+version: 1.1.0
 license: MIT
+notes: "[ARCHIVE v1.1.0 DOI PENDING]; local unpublished build; v2 app pinned to allmeta v1.8.0 (1cb3f84, contains PR #170); captures taken at f96772b; see RELEASE_EQUIVALENCE.md"
 references:
+  - type: software
+    title: allmeta
+    authors:
+      - family-names: Ahmad
+        given-names: Mahmood
+    version: 1.8.0
+    doi: 10.5281/zenodo.23515177
+    url: https://github.com/mahmood726-cyber/allmeta
+    notes: "isDerivedFrom; v2 app snapshot pinned to tag v1.8.0, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79 (contains PR #170); the v1 primary tier remains scoped to c6b8912"
   - type: software
     title: allmeta
     authors:

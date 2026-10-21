@@ -1,0 +1,243 @@
+{
+ "scripts": [
+  {
+   "file": "s00.R",
+   "id": "dat.franchini2012::MD arms 1-2",
+   "k": 7,
+   "planted": false,
+   "sha256": "6937dd2c1e9efa3af4b88f173a4972d948874460325858bc3da1b62ab3590b5e"
+  },
+  {
+   "file": "s00_planted.R",
+   "id": "dat.franchini2012::MD arms 1-2",
+   "k": 7,
+   "planted": true,
+   "sha256": "2285921f3f4fe716a51a1424c5b2183945803f4eba69687e59856d8c1a9dee43"
+  },
+  {
+   "file": "s01.R",
+   "id": "dat.rivera2025::log diagnostic OR",
+   "k": 10,
+   "planted": false,
+   "sha256": "bb2d179ae8b35187677806d5f95d5f31e81688633188ec6c3254f2db1e67acbc"
+  },
+  {
+   "file": "s02.R",
+   "id": "dat.cannon2006::OR endpoint6",
+   "k": 4,
+   "planted": false,
+   "sha256": "9f27be561fdccfd891528868c84b79b22bb451e9cf44fd57a53591d435f5903d"
+  },
+  {
+   "file": "s03.R",
+   "id": "dat.bonett2010::AHW",
+   "k": 9,
+   "planted": false,
+   "sha256": "1ce446013955e2d47a0b4e71c6feb21b321f11b41d15574e174351eb6f169d04"
+  },
+  {
+   "file": "s04.R",
+   "id": "dat.anker2025::GEN",
+   "k": 6,
+   "planted": false,
+   "sha256": "bc849e1f478a0f2cc14de7340265d04eb689599442cf08e3a04c59cc6abbf776"
+  },
+  {
+   "file": "s05.R",
+   "id": "dat.cannon2006::OR endpoint3",
+   "k": 4,
+   "planted": false,
+   "sha256": "6ac104a4072102e7c11fab06d02053a14f68b232d44034da8081c9179223885d"
+  },
+  {
+   "file": "s06.R",
+   "id": "dat.cannon2006::OR endpoint2",
+   "k": 4,
+   "planted": false,
+   "sha256": "9a2b7e4424ad04dcbd599037f21eec354bf36c8173487f43b6bc24a95aada440"
+  },
+  {
+   "file": "s07.R",
+   "id": "dat.normand1999::MD",
+   "k": 9,
+   "planted": false,
+   "sha256": "f26188efb87940a289a23e09467e7b52646e41c8a66aaf03c5ba6e0fbc5843e3"
+  },
+  {
+   "file": "s08.R",
+   "id": "dat.aloe2013::PCOR",
+   "k": 5,
+   "planted": false,
+   "sha256": "7ef772ecec889d9e93537acebfa0e64bf942371377d1a8ad8ed223d765a3417c"
+  },
+  {
+   "file": "s09.R",
+   "id": "dat.woods2010::PLO arm-level",
+   "k": 8,
+   "planted": false,
+   "sha256": "32f1b2adf632a00f427541bdc597414b1f1b20cfae26ccfded5292ac62826530"
+  },
+  {
+   "file": "s10.R",
+   "id": "dat.dorn2007::RR",
+   "k": 19,
+   "planted": false,
+   "sha256": "17c7d7d700ec2ed66ac743a12cd366738ff027f8d510e707f35b266611d97baa"
+  },
+  {
+   "file": "s10_planted.R",
+   "id": "dat.dorn2007::RR",
+   "k": 19,
+   "planted": true,
+   "sha256": "8825146fa63ce89280def7d06ce69b52b05a60774965240a6c1541681a364d5c"
+  },
+  {
+   "file": "s11.R",
+   "id": "dat.colditz1994::RR",
+   "k": 13,
+   "planted": false,
+   "sha256": "939b01f97facce531529567d82ae71e08191ff50fac54fa856cb0143e0c1ae07"
+  },
+  {
+   "file": "s12.R",
+   "id": "dat.damico2009::OR",
+   "k": 16,
+   "planted": false,
+   "sha256": "9a00eda1d322448055f745509d3eb321b35b512a5ccddd473511be5e74349aa4"
+  },
+  {
+   "file": "s13.R",
+   "id": "dat.ursino2021::PLO arm-level",
+   "k": 49,
+   "planted": false,
+   "sha256": "2d085c44ab39d87e8db80ee61a2035e9693cff15151557c044295321a288b8ee"
+  },
+  {
+   "file": "s14.R",
+   "id": "dat.furukawa2003::SMD",
+   "k": 17,
+   "planted": false,
+   "sha256": "4daa13e355197fcf0c3bc1af0117097ece23fb6f00b08398b1f99d185b4a4797"
+  },
+  {
+   "file": "s15.R",
+   "id": "dat.linde2005::RR",
+   "k": 23,
+   "planted": false,
+   "sha256": "276482d32f0f0c25d68aeb4dc0cfa4d39bee75bd1535af549719a5e80388e31e"
+  },
+  {
+   "file": "s16.R",
+   "id": "dat.michael2013::stored yi/vi",
+   "k": 12,
+   "planted": false,
+   "sha256": "75038b898494a21baf41339211fc4179275e33064ba16343dc45bc12895d33f0"
+  },
+  {
+   "file": "s17.R",
+   "id": "dat.pritz1997::PLO",
+   "k": 14,
+   "planted": false,
+   "sha256": "514af46df33c142ebf7dc1f31c86c0ec53eabfbfc9a0a0fe732495b4dfad3238"
+  },
+  {
+   "file": "s18.R",
+   "id": "dat.maire2019::Mann-Kendall s1 stored",
+   "k": 35,
+   "planted": false,
+   "sha256": "827ac15ea99e49f413987be256cb8b54ffca74eaf777ff825a5f179ce5c795a7"
+  },
+  {
+   "file": "s19.R",
+   "id": "dat.li2007::OR",
+   "k": 22,
+   "planted": false,
+   "sha256": "4a69443886ab281bf7f9a38105339fc9eabb3518bda6df4590fdd97250ace00b"
+  },
+  {
+   "file": "s20.R",
+   "id": "dat.craft2003::COR",
+   "k": 54,
+   "planted": false,
+   "sha256": "3a79d95e295381d87078798e6311116f037dd44575865e0ad54e4164045519b8"
+  },
+  {
+   "file": "s20_planted.R",
+   "id": "dat.craft2003::COR",
+   "k": 54,
+   "planted": true,
+   "sha256": "7bce0924b15a38497b8838d4248455f33ac254d7ba59805d4bee9992f1f36d5c"
+  },
+  {
+   "file": "s21.R",
+   "id": "dat.hartmannboyce2018::RR",
+   "k": 136,
+   "planted": false,
+   "sha256": "c98d172c2ad7ec7cc79a926d741c401463bb6469ec07234dc406b0fe7784948a"
+  },
+  {
+   "file": "s22.R",
+   "id": "dat.dagostino1998::OR",
+   "k": 68,
+   "planted": false,
+   "sha256": "4f2134599db9a2291e82e42e43ab3221e2fb1756ff120cbb871049e64052ca4f"
+  },
+  {
+   "file": "s23.R",
+   "id": "dat.knapp2017::stored yi/vi",
+   "k": 66,
+   "planted": false,
+   "sha256": "59c192ee01a05a6bb0351d0a1b39943d9b9a6d5cf75859c15da87933572d659a"
+  },
+  {
+   "file": "s24.R",
+   "id": "dat.besson2016::SMD",
+   "k": 389,
+   "planted": false,
+   "sha256": "e3c9b2176122798fd030a72473497c8c354d866d8c848248c636d9b60e2d37ab"
+  },
+  {
+   "file": "s25.R",
+   "id": "dat.yusuf1985::RR",
+   "k": 118,
+   "planted": false,
+   "sha256": "d6dc0e6255d537c04c216a387fc884808ed7bcaa16db8bbd85b314c933a66384"
+  },
+  {
+   "file": "s26.R",
+   "id": "dat.landenberger2005::OR",
+   "k": 58,
+   "planted": false,
+   "sha256": "40fc607f91c446ae1f0bd38a7da729e0109f24a911c81a499c366d0fcf0110de"
+  },
+  {
+   "file": "s27.R",
+   "id": "dat.ishak2007::stored yi/vi",
+   "k": 82,
+   "planted": false,
+   "sha256": "771bf2469ec9b9f0c04ad25e4feab67d916e659dae086e0fc8c3d02c92c2a5e6"
+  },
+  {
+   "file": "s28.R",
+   "id": "dat.assink2016::SMD",
+   "k": 100,
+   "planted": false,
+   "sha256": "1066ca12df65f081b4264726d72b21031490ee8886cafb1f715a49687dede110"
+  },
+  {
+   "file": "s29.R",
+   "id": "dat.pignon2000::stored yi/vi",
+   "k": 65,
+   "planted": false,
+   "sha256": "c5b89f339868ffb12ff328c16614d67a2a5970eb3797d4205fd3f0aee01b8d41"
+  },
+  {
+   "file": "s30.R",
+   "id": "dat.bcg::RR",
+   "k": 13,
+   "planted": false,
+   "sha256": "4b7eef99a13bb9284102d345103c12a25dc0168b003c00da98aacff1d426fcc2"
+  }
+ ],
+ "pageerrors": []
+}

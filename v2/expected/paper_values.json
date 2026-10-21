@@ -1,0 +1,430 @@
+{
+  "version": "1.1.0",
+  "app_commit": "f96772b",
+  "R": "4.6.0",
+  "metafor": "5.2.1",
+  "configurations": 142,
+  "effect_rows": 9594,
+  "archive_checks": 164802,
+  "bit_identity": 126000,
+  "E2": 96650,
+  "E2_full_fields": 5,
+  "E2_row_fields": 10,
+  "E1": 121913,
+  "S": 115270,
+  "F": 1080,
+  "R_checks": 5563,
+  "single_exclusions": 9594,
+  "flagged_configurations": 78,
+  "refused": 1,
+  "F_fits": 77,
+  "random_configurations": 139,
+  "R_fits": 417,
+  "fresh_fits": 494,
+  "fresh_checks": 6643,
+  "replicates": 3,
+  "random_seed": 20261021,
+  "script_seed": 20261022,
+  "E3_scripts": 31,
+  "E3_values": 27637,
+  "E3_planted": 3,
+  "E3_per_script": {
+    "s00.R": 145,
+    "s01.R": 202,
+    "s02.R": 88,
+    "s03.R": 183,
+    "s04.R": 126,
+    "s05.R": 88,
+    "s06.R": 88,
+    "s07.R": 183,
+    "s08.R": 107,
+    "s09.R": 164,
+    "s10.R": 373,
+    "s11.R": 259,
+    "s12.R": 316,
+    "s13.R": 943,
+    "s14.R": 335,
+    "s15.R": 449,
+    "s16.R": 240,
+    "s17.R": 278,
+    "s18.R": 677,
+    "s19.R": 430,
+    "s20.R": 1038,
+    "s21.R": 2596,
+    "s22.R": 1304,
+    "s23.R": 1266,
+    "s24.R": 7403,
+    "s25.R": 2254,
+    "s26.R": 1114,
+    "s27.R": 1570,
+    "s28.R": 1912,
+    "s29.R": 1247,
+    "s30.R": 259
+  },
+  "E3_strata": [
+    [
+      4,
+      10
+    ],
+    [
+      11,
+      50
+    ],
+    [
+      51,
+      500
+    ]
+  ],
+  "E3_per_stratum": 10,
+  "E3_min_values": 88,
+  "E3_max_values": 7403,
+  "REML_tolerance": 1e-06,
+  "Q_tolerance": 1e-09,
+  "stored_refit_tolerance": 1e-12,
+  "provenance_only": {
+    "original_E3_largest_runtime_seconds": 309,
+    "original_E3_generated_commit": "ab57bca",
+    "E2_planted_passes": 96646,
+    "E1_planted_failures": 4,
+    "e1_original_comparisons": {
+      "S.rows": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "S.mu": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.171e-14,
+        "tolerance": 1e-06
+      },
+      "S.seMu": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 9.551e-15,
+        "tolerance": 1e-06
+      },
+      "S.ciLo": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.102e-14,
+        "tolerance": 1e-06
+      },
+      "S.ciHi": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 3.043e-14,
+        "tolerance": 1e-06
+      },
+      "S.z": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.479e-12,
+        "tolerance": 1e-06
+      },
+      "S.p": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 2.194e-14,
+        "tolerance": 1e-06
+      },
+      "S.tau2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 3.517e-15,
+        "tolerance": 1e-06
+      },
+      "S.I2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 8.333e-12,
+        "tolerance": 1e-06
+      },
+      "S.H2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 4.963e-12,
+        "tolerance": 1e-06
+      },
+      "S.Q": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.946e-14,
+        "tolerance": 1e-09
+      },
+      "S.Qp": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.599e-14,
+        "tolerance": 1e-09
+      },
+      "S.k": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "F.excluded_set": {
+        "passed": 78,
+        "checks": 78,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "F.refused": {
+        "passed": 78,
+        "checks": 78,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "F.mu": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 3.671e-15,
+        "tolerance": 1e-06
+      },
+      "F.seMu": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 5.551e-16,
+        "tolerance": 1e-06
+      },
+      "F.ciLo": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 4.063e-15,
+        "tolerance": 1e-06
+      },
+      "F.ciHi": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 1.831e-15,
+        "tolerance": 1e-06
+      },
+      "F.z": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 5.066e-15,
+        "tolerance": 1e-06
+      },
+      "F.p": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 8.327e-16,
+        "tolerance": 1e-06
+      },
+      "F.tau2": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 8.882e-16,
+        "tolerance": 1e-06
+      },
+      "F.I2": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 2.192e-14,
+        "tolerance": 1e-06
+      },
+      "F.H2": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 5.241e-15,
+        "tolerance": 1e-06
+      },
+      "F.Q": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 4.122e-15,
+        "tolerance": 1e-09
+      },
+      "F.Qp": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 3.442e-15,
+        "tolerance": 1e-09
+      },
+      "F.k": {
+        "passed": 77,
+        "checks": 77,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "R.replicates": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "R.excluded_set": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      },
+      "R.mu": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 5.473e-15,
+        "tolerance": 1e-06
+      },
+      "R.seMu": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 4.013e-15,
+        "tolerance": 1e-06
+      },
+      "R.ciLo": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 6.849e-15,
+        "tolerance": 1e-06
+      },
+      "R.ciHi": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 7.994e-15,
+        "tolerance": 1e-06
+      },
+      "R.z": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 2.059e-13,
+        "tolerance": 1e-06
+      },
+      "R.p": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 3.759e-15,
+        "tolerance": 1e-06
+      },
+      "R.tau2": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 3.991e-15,
+        "tolerance": 1e-06
+      },
+      "R.I2": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 8.333e-12,
+        "tolerance": 1e-06
+      },
+      "R.H2": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 4.906e-13,
+        "tolerance": 1e-06
+      },
+      "R.Q": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 1.278e-14,
+        "tolerance": 1e-09
+      },
+      "R.Qp": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 1.221e-14,
+        "tolerance": 1e-09
+      },
+      "R.k": {
+        "passed": 417,
+        "checks": 417,
+        "max_normalized_difference": 0.0,
+        "tolerance": 0.0
+      }
+    },
+    "e2_original_comparisons": {
+      "full.ciLo": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 3.983e-15,
+        "tolerance": 1e-06
+      },
+      "full.ciHi": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 1.902e-15,
+        "tolerance": 1e-06
+      },
+      "full.p": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 1.388e-15,
+        "tolerance": 1e-06
+      },
+      "full.I2": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 3.577e-13,
+        "tolerance": 1e-06
+      },
+      "full.Qp": {
+        "passed": 142,
+        "checks": 142,
+        "max_normalized_difference": 9.825e-15,
+        "tolerance": 1e-09
+      },
+      "loo.tau2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 3.517e-15,
+        "tolerance": 1e-06
+      },
+      "loo.I2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 8.333e-12,
+        "tolerance": 1e-06
+      },
+      "loo.H2": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 4.963e-12,
+        "tolerance": 1e-06
+      },
+      "loo.Q": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.946e-14,
+        "tolerance": 1e-09
+      },
+      "loo.Qp": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.599e-14,
+        "tolerance": 1e-09
+      },
+      "loo.zval": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.479e-12,
+        "tolerance": 1e-06
+      },
+      "loo.pval": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 2.194e-14,
+        "tolerance": 1e-06
+      },
+      "inf.tau2.del": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 3.517e-15,
+        "tolerance": 1e-06
+      },
+      "inf.QE.del": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 1.946e-14,
+        "tolerance": 1e-09
+      },
+      "dfbetas.intrcpt": {
+        "passed": 9594,
+        "checks": 9594,
+        "max_normalized_difference": 3.716e-12,
+        "tolerance": 1e-06
+      }
+    }
+  }
+}

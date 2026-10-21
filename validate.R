@@ -97,5 +97,31 @@ main <- function() {
   stopifnot(nrow(tab)==164802L,passed==164802L)
   0L
 }
-status<-tryCatch(main(),error=function(e){cat('Validation failed: ',conditionMessage(e),'\n',sep='',file=stderr());1L})
-quit(save='no',status=status)
+# V1 function body above is byte-identical to v1.0.0.
+# Limit the unchanged helper's worker count at load time: parent + one worker.
+# This changes scheduling only; pinned helper bytes and fitting arguments stay intact.
+v1_environment <- new.env(parent=environment(main))
+v1_environment$source <- function(file, ...) {
+  result <- base::source(file, ...)
+  if (identical(file, 'bench/prime_validation.R')) {
+    b <- body(prime_validation)
+    stopifnot(identical(b[[3]], quote(workers <- 3L)))
+    b[[3]] <- quote(workers <- 1L)
+    body(prime_validation) <<- b
+  }
+  invisible(result)
+}
+environment(main) <- v1_environment
+status <- 0L
+if (Sys.getenv('INFLUENCE_V2_ONLY') != '1') {
+  status <- tryCatch(main(), error=function(e) {
+    cat('Validation failed: ', conditionMessage(e), '\n', sep='', file=stderr()); 1L
+  })
+} else cat('V1 SKIPPED: INFLUENCE_V2_ONLY=1\n')
+if (status == 0L) {
+  status <- tryCatch({source('v2/validate.R'); v2_main()}, error=function(e) {
+    cat('V2 validation failed: ', conditionMessage(e), '\n', sep='', file=stderr()); 1L
+  })
+  cat(if (status == 0L) 'V2 REPRODUCED\n' else 'V2 NOT REPRODUCED\n')
+} else cat('V2 NOT REPRODUCED: v1 validation failed; v2 not run\n')
+quit(save='no', status=status)

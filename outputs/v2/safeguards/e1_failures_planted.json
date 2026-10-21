@@ -1,0 +1,40 @@
+[
+ {
+  "set": "S",
+  "q": "tau2",
+  "id": "dat.aloe2013::PCOR",
+  "row": 0,
+  "app": 0.036751919456967576,
+  "ref": 0.03674824463250434,
+  "err": 3.674824463235915e-06
+ },
+ {
+  "set": "F",
+  "q": "excluded_set",
+  "id": "dat.aloe2013::PCOR",
+  "row": null,
+  "app": [],
+  "ref": [
+   3
+  ],
+  "err": Infinity
+ },
+ {
+  "set": "F",
+  "q": "k",
+  "id": "dat.aloe2013::PCOR",
+  "row": null,
+  "app": 5,
+  "ref": 4,
+  "err": Infinity
+ },
+ {
+  "set": "R",
+  "q": "Q",
+  "id": "dat.aloe2013::PCOR",
+  "row": 1,
+  "app": 36.21167875448652,
+  "ref": 36.2116783923697,
+  "err": 1.000000104766738e-08
+ }
+]

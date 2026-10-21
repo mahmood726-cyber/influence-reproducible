@@ -1,0 +1,114 @@
+/**
+ * synthesis-journal — renders an allmeta review as a Synthēsis journal article
+ * (browser port of the synthesis-paper-spec/metapaper STANDARD). Checks the
+ * standard's structural elements render, the figure/table come from the data,
+ * the demo banner is honest, and a live bus drives the numbers (truth-first).
+ *
+ * Host: synthesis-journal/index.html (loads ma-studies / ma-pooled / ma-core).
+ */
+import { test, expect } from '@playwright/test';
+const URL = 'http://localhost:8088/synthesis-journal/index.html';
+const BENIGN = /frame-ancestors|ERR_CONNECTION|favicon/;
+
+test('renders the Synthēsis standard from demo data, no errors', async ({ page }) => {
+  const errs = [];
+  page.on('console', m => { if (m.type() === 'error' && !BENIGN.test(m.text())) errs.push(m.text()); });
+  page.on('pageerror', e => { if (!BENIGN.test(e.message)) errs.push(e.message); });
+  await page.goto(URL, { waitUntil: 'load' });
+  await page.waitForFunction(() => document.querySelectorAll('h1.title').length > 0, { timeout: 10000 });
+
+  // real, non-empty <h1> (also satisfies the app-smoke contract)
+  const h1 = (await page.locator('h1.title').first().textContent() || '').trim();
+  expect(h1.length).toBeGreaterThan(0);
+
+  // the standard's structural elements
+  await expect(page.locator('.letterhead .wordmark')).toHaveText('Synthēsis');
+  await expect(page.locator('.abstract h2')).toHaveText('Abstract');
+  await expect(page.locator('.keyfinding .stmt')).toContainText('95% CI');
+  // figure catalogue: forest + leave-one-out + cumulative + funnel (k=7 demo, k>=3)
+  await expect(page.locator('figure.fig svg')).toHaveCount(4);
+  await expect(page.locator('figcaption')).toContainText(['Forest plot', 'Leave-one-out', 'Cumulative', 'Funnel plot']);
+  // data-gated figures surfaced honestly, never fabricated
+  await expect(page.locator('article')).toContainText('Figures not shown');
+  await expect(page.locator('article')).toContainText('L’Abbé');
+  await expect(page.locator('article')).toContainText('Risk-of-bias traffic light');
+  // funnel interpretation gated at k<10
+  await expect(page.locator('figcaption').filter({ hasText: 'Funnel' })).toContainText('underpowered');
+  await expect(page.locator('table.booktabs')).toHaveCount(1);
+  await expect(page.locator('.howtocite h3')).toContainText('How to cite');
+  await expect(page.locator('.oa')).toContainText('CC BY 4.0');
+
+  // no live data -> honest demo banner
+  await expect(page.locator('#demoBanner')).toBeVisible();
+  await expect(page.locator('#demoBanner')).toContainText('DEMO');
+
+  // forest figure has one red pooled diamond + the study squares
+  const polys = await page.locator('figure.fig svg polygon[fill="#9c2b27"]').count();
+  expect(polys).toBe(1);
+  const squares = await page.locator('figure.fig svg rect[fill="#054f16"]').count();
+  expect(squares).toBeGreaterThan(1);
+
+  expect(errs, 'no console/page errors').toEqual([]);
+});
+
+test('a live synthesis bus drives the numbers, demo banner disappears', async ({ page }) => {
+  await page.goto(URL, { waitUntil: 'load' });
+  await page.waitForFunction(() => !!window.MaStudies && !!window.MaPooled, { timeout: 10000 });
+
+  // seed the cross-tool buses the way the pipeline apps would
+  await page.evaluate(() => {
+    localStorage.setItem('ma-studies-v1', JSON.stringify({ _schema: 'ma-studies-v1', studies: [
+      { label: 'Trial A', est: -0.22, se: 0.08 }, { label: 'Trial B', est: -0.16, se: 0.07 },
+      { label: 'Trial C', est: -0.30, se: 0.10 }, { label: 'Trial D', est: -0.11, se: 0.09 },
+    ] }));
+    // fromEstSE takes the LOG estimate for ratio scale -> pointEstimate = exp(log 0.83) = 0.83
+    window.MaPooled.write(window.MaPooled.fromEstSE(Math.log(0.83), 0.05, { scale: 'ratio', measure: 'HR', k: 4, label: 'All-cause mortality' }));
+  });
+  await page.locator('#btnRefresh').click();
+
+  // demo banner gone; title comes from the pooled label; k=4 studies in the table
+  await expect(page.locator('#demoBanner')).toBeHidden();
+  await expect(page.locator('h1.title')).toHaveText('All-cause mortality');
+  await expect(page.locator('table.booktabs tbody tr')).toHaveCount(4);
+  // pooled HR read verbatim from the bus (0.83), not re-pooled
+  await expect(page.locator('.keyfinding .stmt')).toContainText('0.83');
+});
+
+test('imports a RapidMeta config onto the buses and renders it as a journal article', async ({ page }) => {
+  await page.goto(URL, { waitUntil: 'load' });
+  await page.waitForFunction(() => !!(window.RapidMetaImport && window.MaStudies && window.AlmMaCore), { timeout: 10000 });
+
+  // a RapidMeta-kit-shaped config: trials carry publishedHR + CI (and 2x2 counts)
+  const res = await page.evaluate(() => {
+    const cfg = {
+      title: 'Finerenone for cardiorenal outcomes in CKD',
+      pico: { out: 'CV death or HF hospitalisation' },
+      trials: [
+        { name: 'FIDELIO-DKD', year: 2020, tE: 367, tN: 2833, cE: 420, cN: 2841, publishedHR: 0.86, hrLCI: 0.75, hrUCI: 0.99 },
+        { name: 'FIGARO-DKD', year: 2021, publishedHR: 0.87, hrLCI: 0.76, hrUCI: 0.98 },
+        { name: 'FINEARTS-HF', year: 2024, publishedHR: 0.84, hrLCI: 0.74, hrUCI: 0.95 },
+        { name: 'No-effect trial' }, // no usable effect -> skipped, surfaced
+      ],
+    };
+    const r = window.RapidMetaImport.loadToBus(cfg);
+    return { n: r.studies.length, skipped: r.skipped.length, measure: r.measure };
+  });
+  expect(res.n).toBe(3);
+  expect(res.skipped).toBe(1);
+  expect(res.measure).toBe('HR');
+
+  await page.locator('#btnRefresh').click();
+
+  // the imported synthesis drives the article
+  await expect(page.locator('#demoBanner')).toBeHidden();
+  await expect(page.locator('h1.title')).toContainText('Finerenone');
+  await expect(page.locator('table.booktabs tbody tr')).toHaveCount(3);
+  await expect(page.locator('.article')).toContainText('FIDELIO-DKD 2020');
+  // the bridge pooled the trials as a random-effects model (disclosed, not "as reported")
+  await expect(page.locator('.keyfinding .sub')).toContainText('random-effects model');
+  // ratio scale -> the pooled HR is plausibly < 1
+  const hr = await page.evaluate(() => window.MaPooled.read().slice(-1)[0].pointEstimate);
+  expect(hr).toBeGreaterThan(0.8);
+  expect(hr).toBeLessThan(0.9);
+});
+

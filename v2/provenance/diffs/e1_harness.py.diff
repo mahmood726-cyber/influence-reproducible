@@ -1,0 +1,11 @@
+--- infup/tools/e1_harness.py
++++ v2/tools/e1_harness.py
+@@ -7,7 +7,7 @@
+ from pathlib import Path
+ from playwright.sync_api import sync_playwright
+ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace", line_buffering=True)
+-ARCH = Path(r"C:\mh-lanes\p10-11-15\influence-reproducible")
++ARCH = Path(__file__).resolve().parents[2]
+ root, sets, out = Path(sys.argv[1]), json.loads(Path(sys.argv[2]).read_text()), Path(sys.argv[3])
+ corpus = json.loads((ARCH / "data" / "corpus.json").read_text(encoding="utf-8"))
+ ids = sorted(corpus)

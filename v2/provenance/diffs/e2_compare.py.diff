@@ -1,0 +1,11 @@
+--- infup/tools/e2_compare.py
++++ v2/tools/e2_compare.py
+@@ -3,7 +3,7 @@
+ Usage: python e2_compare.py capture.json label [--plant]"""
+ import json, sys, copy
+ from pathlib import Path
+-ARCH = Path(r"C:\mh-lanes\p10-11-15\influence-reproducible")
++ARCH = Path(__file__).resolve().parents[2]
+ app = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")); label = sys.argv[2]
+ ref = json.loads((ARCH / "results" / "reference.json").read_text(encoding="utf-8"))
+ corpus = json.loads((ARCH / "data" / "corpus.json").read_text(encoding="utf-8"))

@@ -1,0 +1,9 @@
+V1 SKIPPED: INFLUENCE_V2_ONLY=1
+V2 package metafor 5.2.1
+V2 package jsonlite 2.0.0
+V2 package digest 0.6.39
+R version 4.6.0 (2026-04-24 ucrt) 
+V2 INPUT SHA256 515/516
+V2 validation failed: V2 input SHA-256 mismatch: v2/e1/refits.jsonl
+V2 validation failed: V2 checks failed; see outputs/v2/
+V2 NOT REPRODUCED

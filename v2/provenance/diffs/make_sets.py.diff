@@ -1,0 +1,10 @@
+--- infup/e1/make_sets.py
++++ v2/tools/make_sets.py
+@@ -1,6 +1,6 @@
+ import json, random, sys
+ from pathlib import Path
+-A = Path(r"C:\mh-lanes\p10-11-15\influence-reproducible")
++A = Path(__file__).resolve().parents[2]
+ c = json.loads((A/"data"/"corpus.json").read_text(encoding="utf-8"))
+ r = json.loads((A/"results"/"reference.json").read_text(encoding="utf-8"))
+ ids = sorted(c)
